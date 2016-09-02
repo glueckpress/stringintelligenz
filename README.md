@@ -1,22 +1,36 @@
 # Stringintelligenz
 Gender-sensitive Sprache für WordPress in Deutsch
 
+[_Read a summary in English here_](#english)
+
+_Stringintelligenz_ ist ein Feature-Projekt, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen.
+
+#### Zeitplan
+
+1. Entwurf einer gender-sensitiven Version für die deutsche Übersetzung (Locale `de_DE`, „Du“-Version).
+- Veröffentlichung der Überarbeitung als Plugin auf wordpress.org.
+- Redaktionelle Begleitung, z.B. über de.wordpress.org.
+- Feedback über das Plugin-Forum auf wordpress.org.
+- Weitere Überarbeitungen, Beta-Versionen und Release Candidates.
+- Übernahme des finalen Release Candidates in die informellen und formellen `de_DE`-Core-Übersetzungen.
+- Auslieferung als Standard-Übersetzungen mit WordPress 4.7.
+
 ---
 
 ## English
 
 ### Stringintelligenz
-_Stringintelligenz_ is a feature project to implement gender-sensitive language in German locales of WordPress.
+_Stringintelligenz_ is a feature project that aims to bring gender-sensitive language to German locales of WordPress.
 
 #### Roadmap
 
-1. Draft a gender-sensitive translation for default German (informal).
+1. Draft a gender-sensitive translation for default German (`de_DE` locale, informal).
 - Make draft available as a plugin on wordpress.org.
-- Blog about it on de.wordpress.org.
+- Blog about it, e.g. on de.wordpress.org.
 - Collect feedback via plugin forum on wordpress.org.
-- Re-iterate, publish betas and RCs.
+- Re-iterate, publish betas and Release Candidates.
 - Transfer final RC into informal and formal `de_DE` core translations.
-- Ship with WordPress 4.7.
+- Ship as default translations with WordPress 4.7.
 
 #### Case
 German has three genders: masculine, feminine and neuter. Word endings often reveal grammatical gender—particularly for individuals, groups of individuals, job descriptions and the like:
