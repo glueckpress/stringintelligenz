@@ -1,4 +1,4 @@
-### Stringintelligenz
+# Stringintelligenz
 Gender-sensitive language for WordPress in German
 
 **Stringintelligenz** is a feature project that aims to bring gender-sensitive language to German WordPress locales.
