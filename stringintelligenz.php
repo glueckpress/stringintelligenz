@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Stringintelligenz
  * Description: Gender-sensitive Sprache für WordPress in Deutsch
- * Version:     0.1
+ * Version:     0.1-alpha
  * Author:      Caspar Hübinger
  * Author URI:  https://profiles.wordpress.org/glueckpress
  * License:     GPLv3
