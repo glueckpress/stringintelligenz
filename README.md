@@ -1,10 +1,9 @@
 # Stringintelligenz
 Gender-sensitive Sprache für WordPress in Deutsch
 
-- _Read a summary in English [here](#english)_
-- _The feature plugin for this proposal can be found [here](/stringintelligenz/)_
+_Stringintelligenz_ ist ein Feature-Plugin, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen.
 
-_Stringintelligenz_ ist ein Feature-Projekt, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen.
+_Read a summary in English [here](#english)_
 
 #### Zeitplan
 

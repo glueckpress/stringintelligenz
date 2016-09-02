@@ -95,7 +95,7 @@ class Stringintelligenz {
 	}
 
 	/**
-	 * Notify user their installed locale does not qualify.
+	 * Notify user when their installed locale does not qualify.
 	 * @return void
 	 */
 	function admin_notice_bailout_locale() {
