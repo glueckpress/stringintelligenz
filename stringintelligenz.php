@@ -95,13 +95,17 @@ class Stringintelligenz {
 	 * @since   0.1.0-alpha
 	 * @wp-hook override_load_textdomain
 	 *
+	 * @param bool   $override Whether or not to override the .mo file loading.
+	 * @param string $domain   Text domain.
+	 * @param string $mofile   Path to .mo file.
+	 *
 	 * @return bool Whether or not the textdomain was overwritten.
 	 */
 	public function overwrite_textdomain( $override, $domain, $mofile ) {
 
 		// Only for core files.
 		if ( 'default' !== $domain ) {
-			return false;
+			return $override;
 		}
 
 		// Extract file name.
@@ -110,8 +114,8 @@ class Stringintelligenz {
 		$mofile_name = $mofile_pieces_reverse[0];
 
 		// If not called with an overwrite mofile, proceed with the given mofile and prevent an endless recursion.
-		if ( strpos( $mofile, $this->overwrite_folder ) !== false ) {
-			return false;
+		if ( false !== strpos( $mofile, $this->overwrite_folder ) ) {
+			return $override;
 		}
 
 		// If an overwrite file exists, load it to overwrite the original strings.
@@ -133,7 +137,7 @@ class Stringintelligenz {
 			}
 		}
 
-		return false;
+		return true;
 	}
 
 	/**
