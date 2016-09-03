@@ -111,7 +111,7 @@ class Stringintelligenz {
 		// Extract file name.
 		$mofile_pieces = explode( '/', $mofile );
 		$mofile_pieces_reverse = array_reverse( $mofile_pieces );
-		$mofile_name = $mofile_pieces_reverse[0];
+		$mofile_name = reset( $mofile_pieces_reverse );
 
 		// If not called with an overwrite mofile, proceed with the given mofile and prevent an endless recursion.
 		if ( false !== strpos( $mofile, $this->overwrite_folder ) ) {
