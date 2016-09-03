@@ -25,12 +25,6 @@ class Stringintelligenz {
 
 	function __construct() {
 
-		// Only for de_DE (informal) for now.
-		if ( 'de_DE' !== get_locale() ) {
-			add_action( 'admin_notices', array( $this, 'admin_notice_bailout_locale' ) );
-			return;
-		}
-
 		// get current locale
 		$this->locale = get_locale();
 
@@ -44,8 +38,18 @@ class Stringintelligenz {
 		if ( $this->is_multisite ) {
 			$this->current_blog_id = get_current_blog_id();
 		}
+	}
 
-		// register action that is triggered, whenever a textdomain is loaded
+	public function initialize() {
+
+		// Only for de_DE (informal) for now.
+		if ( 'de_DE' !== $this->locale ) {
+			add_action( 'admin_notices', array( $this, 'admin_notice_bailout_locale' ) );
+
+			return;
+		}
+
+		// Register action that is triggered, whenever a textdomain is loaded.
 		add_action( 'override_load_textdomain', array( $this, 'overwrite_textdomain' ), 10, 3 );
 	}
 
@@ -106,4 +110,5 @@ class Stringintelligenz {
 	}
 }
 
-new Stringintelligenz;
+$stringintelligenz = new Stringintelligenz();
+$stringintelligenz->initialize();
