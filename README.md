@@ -7,7 +7,7 @@ _Read a summary in English [here](/README-en.md)_
 
 Stringintelligenz…
 
-- eleminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
+- eliminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
 - sorgt für alternative, geschlechterneutrale Formulierungen, wo dies möglich ist;
 - verwendet Formulierungen mit Gender-Star, wo alternative neutrale Formulierungen nicht sinnvoll sind.
 
