@@ -42,7 +42,7 @@ class Stringintelligenz {
 	 *
 	 * @var int
 	 */
-	private $current_blog_id;
+	private $current_site_id;
 
 	/**
 	 * Constructor. Sets up the properties.
@@ -62,7 +62,7 @@ class Stringintelligenz {
 
 		if ( $this->is_multisite ) {
 			// If it is a multisite, set the current site ID.
-			$this->current_blog_id = get_current_blog_id();
+			$this->current_site_id = get_current_blog_id();
 		}
 	}
 
@@ -125,10 +125,10 @@ class Stringintelligenz {
 
 		// Check if a overwrite mofile for the current site exists and load it.
 		if ( $this->is_multisite ) {
-			$current_blog_overwrite_file = $this->overwrite_folder . 'blogs.dir/' . $this->current_blog_id . '/' . $overwrite_mofile;
+			$current_site_overwrite_file = $this->overwrite_folder . 'blogs.dir/' . $this->current_site_id . '/' . $overwrite_mofile;
 
-			if ( file_exists( $current_blog_overwrite_file ) ) {
-				load_textdomain( $domain, $current_blog_overwrite_file );
+			if ( file_exists( $current_site_overwrite_file ) ) {
+				load_textdomain( $domain, $current_site_overwrite_file );
 			}
 		}
 
