@@ -82,8 +82,8 @@ class Stringintelligenz {
 			return;
 		}
 
-		// Register action that is triggered, whenever a textdomain is loaded.
-		add_action( 'override_load_textdomain', array( $this, 'overwrite_textdomain' ), 10, 3 );
+		// Register filter function that is triggered, whenever a textdomain is loaded.
+		add_filter( 'override_load_textdomain', array( $this, 'overwrite_textdomain' ), 10, 3 );
 	}
 
 	/**
