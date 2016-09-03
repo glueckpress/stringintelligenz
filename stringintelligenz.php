@@ -124,7 +124,7 @@ class Stringintelligenz {
 		// Check if a global overwrite mofile exists and load it.
 		$global_overwrite_file = $this->overwrite_folder . $overwrite_mofile;
 
-		if ( file_exists( $global_overwrite_file ) ) {
+		if ( is_readable( $global_overwrite_file ) ) {
 			load_textdomain( $domain, $global_overwrite_file );
 		}
 
@@ -132,7 +132,7 @@ class Stringintelligenz {
 		if ( $this->is_multisite ) {
 			$current_site_overwrite_file = $this->overwrite_folder . 'blogs.dir/' . $this->current_site_id . '/' . $overwrite_mofile;
 
-			if ( file_exists( $current_site_overwrite_file ) ) {
+			if ( is_readable( $current_site_overwrite_file ) ) {
 				load_textdomain( $domain, $current_site_overwrite_file );
 			}
 		}
