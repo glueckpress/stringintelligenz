@@ -108,18 +108,15 @@ class Stringintelligenz {
 			return $override;
 		}
 
-		// Extract file name.
-		$mofile_pieces = explode( '/', $mofile );
-		$mofile_pieces_reverse = array_reverse( $mofile_pieces );
-		$mofile_name = reset( $mofile_pieces_reverse );
-
 		// If not called with an overwrite mofile, proceed with the given mofile and prevent an endless recursion.
 		if ( false !== strpos( $mofile, $this->overwrite_folder ) ) {
 			return $override;
 		}
 
-		// If an overwrite file exists, load it to overwrite the original strings.
-		$overwrite_mofile = $mofile_name;
+		// Extract file name.
+		$mofile_pieces = explode( '/', $mofile );
+		$mofile_pieces_reverse = array_reverse( $mofile_pieces );
+		$overwrite_mofile = reset( $mofile_pieces_reverse );
 
 		// Check if a global overwrite mofile exists and load it.
 		$global_overwrite_file = $this->overwrite_folder . $overwrite_mofile;
