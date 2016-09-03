@@ -63,7 +63,7 @@ class Stringintelligenz {
 		$this->locale = get_locale();
 
 		// Set folder for overwrites.
-		$this->overwrite_folder = trailingslashit( dirname( __FILE__ ) ) . 'languages/';
+		$this->overwrite_folder = dirname( __FILE__ ) . '/languages/';
 	}
 
 	/**
