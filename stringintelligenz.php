@@ -17,6 +17,20 @@
 class Stringintelligenz {
 
 	/**
+	 * Current site ID.
+	 *
+	 * @var int
+	 */
+	private $current_site_id = 1;
+
+	/**
+	 * Flag to check if running a multisite environment.
+	 *
+	 * @var bool
+	 */
+	private $is_multisite;
+
+	/**
 	 * Current locale (e.g., "de_DE").
 	 *
 	 * @var string
@@ -31,31 +45,11 @@ class Stringintelligenz {
 	private $overwrite_folder;
 
 	/**
-	 * Flag to check if running a multisite environment.
-	 *
-	 * @var bool
-	 */
-	private $is_multisite;
-
-	/**
-	 * Current site ID.
-	 *
-	 * @var int
-	 */
-	private $current_site_id;
-
-	/**
 	 * Constructor. Sets up the properties.
 	 *
 	 * @since 0.1.0-alpha
 	 */
-	function __construct() {
-
-		// Set current locale.
-		$this->locale = get_locale();
-
-		// Set folder for overwrites.
-		$this->overwrite_folder = trailingslashit( dirname( __FILE__ ) ) . 'languages/';
+	public function __construct() {
 
 		// Check if multisite.
 		$this->is_multisite = is_multisite();
@@ -64,6 +58,12 @@ class Stringintelligenz {
 			// If it is a multisite, set the current site ID.
 			$this->current_site_id = get_current_blog_id();
 		}
+
+		// Set current locale.
+		$this->locale = get_locale();
+
+		// Set folder for overwrites.
+		$this->overwrite_folder = trailingslashit( dirname( __FILE__ ) ) . 'languages/';
 	}
 
 	/**
@@ -97,11 +97,12 @@ class Stringintelligenz {
 	 *
 	 * @return bool Whether or not the textdomain was overwritten.
 	 */
-	function overwrite_textdomain( $override, $domain, $mofile ) {
+	public function overwrite_textdomain( $override, $domain, $mofile ) {
 
 		// Only for core files.
-		if ( 'default' !== $domain )
+		if ( 'default' !== $domain ) {
 			return false;
+		}
 
 		// Extract file name.
 		$mofile_pieces = explode( '/', $mofile );
@@ -143,10 +144,17 @@ class Stringintelligenz {
 	 *
 	 * @return void
 	 */
-	function admin_notice_bailout_locale() {
+	public function admin_notice_bailout_locale() {
+
 		printf(
 			'<div class="notice notice-error is-dismissible"><p>%s</p></div>',
-			sprintf( __( '<strong>Stringintelligenz</strong> ist momentan nur für <em>Deutsch</em> verfügbar („Du“-Version, Locale: <code>de_DE</code>). Unter <a href="%s">Einstellungen→Allgemein</a> kannst du zu <em>Deutsch</em> wechseln.', 'stringintelligenz' ), admin_url( 'options-general.php' ) )
+			sprintf(
+				__(
+					'<strong>Stringintelligenz</strong> ist momentan nur für <em>Deutsch</em> verfügbar („Du“-Version, Locale: <code>de_DE</code>). Unter <a href="%s">Einstellungen→Allgemein</a> kannst du zu <em>Deutsch</em> wechseln.',
+					'stringintelligenz'
+				),
+				admin_url( 'options-general.php' )
+			)
 		);
 	}
 }
