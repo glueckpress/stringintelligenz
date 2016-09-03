@@ -4,3 +4,4 @@
 * Bernhard Kau ([@2ndkauboy](https://twitter.com/2ndkauboy))
 * Stephanie Wiermann ([@elbmedien](https://twitter.com/elbmedien))
 * Im Palasthotel ([@ImPalasthotel](https://twitter.com/ImPalasthotel))
+* Thorsten Frommen ([@thorstenfrommen](https://twitter.com/thorstenfrommen))
