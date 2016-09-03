@@ -9,37 +9,70 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0
  */
 
+/**
+ * Class Stringintelligenz.
+ *
+ * Takes care of overwriting the default informal German strings with the gender-neutral ones provided by this plugin.
+ */
 class Stringintelligenz {
 
-	// used to store the current locale e.g. "de_DE"
+	/**
+	 * Current locale (e.g., "de_DE").
+	 *
+	 * @var string
+	 */
 	private $locale;
 
-	// used to store the folder with the overwrite files
+	/**
+	 * Folder with the overwrite files.
+	 *
+	 * @var string
+	 */
 	private $overwrite_folder;
 
-	// flag to check if running a multisite environment
+	/**
+	 * Flag to check if running a multisite environment.
+	 *
+	 * @var bool
+	 */
 	private $is_multisite;
 
-	// used to store the multisite blog_id
+	/**
+	 * Current site ID.
+	 *
+	 * @var int
+	 */
 	private $current_blog_id;
 
+	/**
+	 * Constructor. Sets up the properties.
+	 *
+	 * @since 0.1.0-alpha
+	 */
 	function __construct() {
 
-		// get current locale
+		// Set current locale.
 		$this->locale = get_locale();
 
-		// set folder for overwrites
+		// Set folder for overwrites.
 		$this->overwrite_folder = trailingslashit( dirname( __FILE__ ) ) . 'languages/';
 
-		// check if multisite
+		// Check if multisite.
 		$this->is_multisite = is_multisite();
 
-		// if it is a multisite, get the current blog_id
 		if ( $this->is_multisite ) {
+			// If it is a multisite, set the current site ID.
 			$this->current_blog_id = get_current_blog_id();
 		}
 	}
 
+	/**
+	 * Initializes the plugin.
+	 *
+	 * @since 0.1.0-alpha
+	 *
+	 * @return void
+	 */
 	public function initialize() {
 
 		// Only for de_DE (informal) for now.
@@ -54,11 +87,15 @@ class Stringintelligenz {
 	}
 
 	/**
-	 * Overwriting strings from all loaded textdomains, no matter if they are used in Core, Plugins or Themes
+	 * Overwrites strings from all loaded textdomains, no matter if they are used in Core, Plugins or Themes.
 	 *
-	 * The .mo file has to be named [domain]-[locale].mo
-	 * e.g. for the plugin Jetpack with the textdomain "jetpack"
-	 * and the locale "de_DE" is has to be jetpack-de_DE.mo
+	 * The .mo file has to be named [domain]-[locale].mo (e.g., for the plugin Jetpack with the textdomain "jetpack" and
+	 * the locale "de_DE" is has to be jetpack-de_DE.mo).
+	 *
+	 * @since   0.1.0-alpha
+	 * @wp-hook override_load_textdomain
+	 *
+	 * @return bool Whether or not the textdomain was overwritten.
 	 */
 	function overwrite_textdomain( $override, $domain, $mofile ) {
 
@@ -71,22 +108,22 @@ class Stringintelligenz {
 		$mofile_pieces_reverse = array_reverse( $mofile_pieces );
 		$mofile_name = $mofile_pieces_reverse[0];
 
-		// if the filter was not called with an overwrite mofile, return false which will proceed with the mofile given and prevents an endless recursion
+		// If not called with an overwrite mofile, proceed with the given mofile and prevent an endless recursion.
 		if ( strpos( $mofile, $this->overwrite_folder ) !== false ) {
 			return false;
 		}
 
-		// if an overwrite file exists, load it to overwrite the original strings
+		// If an overwrite file exists, load it to overwrite the original strings.
 		$overwrite_mofile = $mofile_name;
 
-		// check if a global overwrite mofile exists and load it
+		// Check if a global overwrite mofile exists and load it.
 		$global_overwrite_file = $this->overwrite_folder . $overwrite_mofile;
 
 		if ( file_exists( $global_overwrite_file ) ) {
 			load_textdomain( $domain, $global_overwrite_file );
 		}
 
-		// check if a overwrite mofile for the current multisite blog exists and load it
+		// Check if a overwrite mofile for the current site exists and load it.
 		if ( $this->is_multisite ) {
 			$current_blog_overwrite_file = $this->overwrite_folder . 'blogs.dir/' . $this->current_blog_id . '/' . $overwrite_mofile;
 
@@ -99,7 +136,11 @@ class Stringintelligenz {
 	}
 
 	/**
-	 * Notify user when their installed locale does not qualify.
+	 * Notifies user when their installed locale does not qualify.
+	 *
+	 * @since   0.1.0-alpha
+	 * @wp-hook admin_notices
+	 *
 	 * @return void
 	 */
 	function admin_notice_bailout_locale() {
