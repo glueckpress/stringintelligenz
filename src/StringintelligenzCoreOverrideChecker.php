@@ -10,7 +10,7 @@ require_once dirname( __FILE__ ) . '/StringintelligenzOverrideChecker.php';
  *
  * Checks the context for any Core text domain overrides.
  */
-class StringintelligenzCoreOverrideChecker implements StringintelligenzOverrideChecker {
+final class StringintelligenzCoreOverrideChecker implements StringintelligenzOverrideChecker {
 
 	/**
 	 * Folder with the overwrite files.

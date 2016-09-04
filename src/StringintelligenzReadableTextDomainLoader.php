@@ -10,7 +10,7 @@ require_once dirname( __FILE__ ) . '/StringintelligenzTextDomainLoader.php';
  *
  * Takes care of loading text domains, given the according file is readable.
  */
-class StringintelligenzReadableTextDomainLoader implements StringintelligenzTextDomainLoader {
+final class StringintelligenzReadableTextDomainLoader implements StringintelligenzTextDomainLoader {
 
 	/**
 	 * Loads the given text domain.
