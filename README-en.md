@@ -51,7 +51,7 @@ Leitender Entwickler
 ```
 Leitende Entwickler*innen
 ```
-would be read as as lead developers (female and male):
+would be read as lead developers (female and male):
 ```
 Leitende Entwicklerinnen und leitende Entwickler
 ```
