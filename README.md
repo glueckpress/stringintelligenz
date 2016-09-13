@@ -1,7 +1,7 @@
 # Stringintelligenz
 Gender-sensitive Sprache für WordPress in Deutsch
 
-_Stringintelligenz_ ist ein Feature-Plugin, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen.
+_Stringintelligenz_ ist ein Feature-Plugin, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen. Ziel des Projekts ist die Übernahme einer gender-sensitiven Version in die offiziellen Sprachdateien für WordPress in Deutsch.
 
 _Read a summary in English [here](/README-en.md)_
 
@@ -18,3 +18,6 @@ Stringintelligenz…
 * ZIP über wp-admin/plugins.php hochladen und aktivieren.
 
 Das Plugin muss nicht konfiguriert werden und funktioniert in jeder WordPress-Installation, in der Deutsch (Du-Version) als aktive Sprache eingestellt ist.
+
+## Feedback
+Feedback und Verbesserungsvorschläge sind ausdrücklich erwünscht. Momentan stehen uns dazu GitHub-Issues zur Verfügung. Die Einreichung des Plugins im Pluginverzeichnis auf wordpress.org, sowie die Nutzung des Plugin-Forums als Feedback-Plattform sind in Vorbereitung.

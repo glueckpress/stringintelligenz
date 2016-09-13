@@ -2,17 +2,14 @@
 # This file is distributed under the same license as the WordPress - 4.6.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-09-02 15:25+0100\n"
+"PO-Revision-Date: 2016-09-05 05:51:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8\n"
+"X-Generator: GlotPress/2.1.0\n"
 "Language: de\n"
 "Project-Id-Version: WordPress - 4.6.x\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Caspar Huebinger <caspar@glueckpress.com>\n"
-"Language-Team: \n"
 
 #: wp-includes/media.php:3354
 msgid "Select"
@@ -29,7 +26,7 @@ msgstr ","
 msgid ", "
 msgstr ", "
 
-#: wp-includes/post.php:3769 wp-includes/script-loader.php:525
+#: wp-includes/post.php:3780 wp-includes/script-loader.php:525
 #: wp-includes/script-loader.php:589
 msgctxt "tag delimiter"
 msgid ","
@@ -88,7 +85,7 @@ msgid "(more&hellip;)"
 msgstr "(mehr&#160;&hellip;)"
 
 #: wp-includes/class-wp-customize-nav-menus.php:368
-#: wp-includes/script-loader.php:727
+#: wp-includes/script-loader.php:729
 msgctxt "missing menu item navigation label"
 msgid "(no label)"
 msgstr "(ohne Bezeichnung)"
@@ -246,7 +243,7 @@ msgstr "&#8592; Video-Wiedergabeliste abbrechen"
 msgid "&#8592; Return to library"
 msgstr "&#8592; Zurück zur Bibliothek"
 
-#: wp-includes/formatting.php:3322 wp-includes/general-template.php:3275
+#: wp-includes/formatting.php:3322 wp-includes/general-template.php:3274
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -262,7 +259,7 @@ msgstr "&laquo; Vorherige Seite"
 msgid "&laquo; Back"
 msgstr "&laquo; Zurück"
 
-#: wp-includes/general-template.php:3189
+#: wp-includes/general-template.php:3188
 msgid "&laquo; Previous"
 msgstr "&laquo; Zurück"
 
@@ -554,30 +551,30 @@ msgstr[0] "%s <span class=\"screen-reader-text\">Kommentar</span>"
 msgstr[1] "%s <span class=\"screen-reader-text\">Kommentare</span>"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:625
+#: wp-includes/script-loader.php:627
 msgid "%s updated!"
 msgstr "%s aktualisiert!"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:652
+#: wp-includes/script-loader.php:654
 msgctxt "plugin"
 msgid "%s installation failed"
 msgstr "%s Installation fehlgeschlagen"
 
 #. translators: %s: Theme name and version
-#: wp-includes/script-loader.php:654
+#: wp-includes/script-loader.php:656
 msgctxt "theme"
 msgid "%s installation failed"
 msgstr "%s Installation fehlgeschlagen"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:648
+#: wp-includes/script-loader.php:650
 msgctxt "plugin"
 msgid "%s installed!"
 msgstr "%s installiert!"
 
 #. translators: %s: Theme name and version
-#: wp-includes/script-loader.php:650
+#: wp-includes/script-loader.php:652
 msgctxt "theme"
 msgid "%s installed!"
 msgstr "%s installiert!"
@@ -641,13 +638,13 @@ msgid "%s must set a database connection for use with escaping."
 msgstr "%s muss eine Datenbank Verbindung setzen, die zum Maskieren benutzt werden soll."
 
 #. translators: %s: Plugin name
-#: wp-includes/script-loader.php:673
+#: wp-includes/script-loader.php:675
 msgctxt "plugin"
 msgid "Network Activate %s"
 msgstr "%s netzwerkweit aktivieren"
 
 #. translators: %s: Theme name
-#: wp-includes/script-loader.php:675
+#: wp-includes/script-loader.php:677
 msgctxt "theme"
 msgid "Network Activate %s"
 msgstr "%s netzwerkweit aktivieren"
@@ -966,18 +963,18 @@ msgstr "Aktion"
 msgid "Active theme"
 msgstr "Aktives Theme"
 
-#: wp-includes/script-loader.php:673
+#: wp-includes/script-loader.php:675
 msgctxt "plugin"
 msgid "Activate %s"
 msgstr "Aktiviere %s"
 
-#: wp-includes/script-loader.php:675
+#: wp-includes/script-loader.php:677
 msgctxt "theme"
 msgid "Activate %s"
 msgstr "Aktiviere %s"
 
-#: wp-activate.php:85 wp-includes/script-loader.php:670
-#: wp-includes/script-loader.php:671
+#: wp-activate.php:85 wp-includes/script-loader.php:672
+#: wp-includes/script-loader.php:673
 msgid "Activate"
 msgstr "Aktivieren"
 
@@ -990,12 +987,12 @@ msgid "Updating..."
 msgstr "Aktualisiere …"
 
 #. translators: JavaScript accessible string
-#: wp-includes/script-loader.php:629
+#: wp-includes/script-loader.php:631
 msgid "Updating... please wait."
 msgstr "Aktualisiere … bitte warten."
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:623
+#: wp-includes/script-loader.php:625
 msgid "Updating %s..."
 msgstr "Aktualisiere %s …"
 
@@ -1009,34 +1006,34 @@ msgid "Updated!"
 msgstr "Aktualisiert!"
 
 #. translators: JavaScript accessible string
-#: wp-includes/script-loader.php:633
+#: wp-includes/script-loader.php:635
 msgid "Update canceled."
 msgstr "Aktualisierung abgebrochen."
 
 #. translators: JavaScript accessible string
-#: wp-includes/script-loader.php:631
+#: wp-includes/script-loader.php:633
 msgid "Update completed successfully."
 msgstr "Aktualisierung erfolgreich abgeschlossen."
 
 #. translators: %s: Error string for a failed update
-#: wp-includes/script-loader.php:621
+#: wp-includes/script-loader.php:623
 msgid "Update Failed: %s"
 msgstr "Aktualisierung fehlgeschlagen: %s"
 
-#: wp-includes/script-loader.php:619
+#: wp-includes/script-loader.php:621
 msgid "Update Failed!"
 msgstr "Aktualisierung fehlgeschlagen!"
 
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:627
+#: wp-includes/script-loader.php:629
 msgid "%s update failed"
 msgstr "Aktualisierung von %s fehlgeschlagen"
 
-#: wp-includes/script-loader.php:634
+#: wp-includes/script-loader.php:636
 msgid "Updates may not complete if you navigate away from this page."
 msgstr "Aktualisierungen werden eventuell nicht abgeschlossen wenn du diese Seite verlässt."
 
-#: wp-includes/script-loader.php:695
+#: wp-includes/script-loader.php:697
 msgid "Current Color"
 msgstr "Aktuelle Farbe"
 
@@ -1117,7 +1114,7 @@ msgstr "Als App-Icon"
 msgid "Display as dropdown"
 msgstr "Als Auswahlbox darstellen"
 
-#: wp-includes/post.php:1296 wp-includes/script-loader.php:715
+#: wp-includes/post.php:1296 wp-includes/script-loader.php:717
 msgid "Use as featured image"
 msgstr "Als Beitragsbild nutzen"
 
@@ -1289,7 +1286,7 @@ msgstr "Anzahl der Kommentare, die angezeigt werden sollen:"
 msgid "Number of links to show:"
 msgstr "Anzahl der zu zeigenden Links: "
 
-#: wp-includes/script-loader.php:682
+#: wp-includes/script-loader.php:684
 msgid "Number of plugins found: %d"
 msgstr "Anzahl gefundene Plugins: %d"
 
@@ -1428,7 +1425,7 @@ msgid "For some strange yet very annoying reason, this post could not be edited.
 msgstr "Aus einem seltsam unerfreulichen Grund kann dieser Beitrag nicht bearbeitet werden."
 
 #. translators: %s: Importer name
-#: wp-includes/script-loader.php:678
+#: wp-includes/script-loader.php:680
 msgid "Run %s"
 msgstr "Ausführen von %s"
 
@@ -1586,7 +1583,7 @@ msgstr "Bei dem Upload ist ein Fehler aufgetreten. Versuche es später noch einm
 
 #: wp-includes/class-wp-editor.php:1028 wp-includes/script-loader.php:454
 #: wp-includes/script-loader.php:550 wp-includes/script-loader.php:559
-#: wp-includes/script-loader.php:726 wp-includes/theme.php:2109
+#: wp-includes/script-loader.php:728 wp-includes/theme.php:2109
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Beim Verlassen der Seite werden deine Änderungen verworfen."
 
@@ -1891,7 +1888,7 @@ msgid "Are you sure that the database server is not under particularly heavy loa
 msgstr "Bist du sicher, dass der Datenbank-Server nicht überlastet ist?"
 
 #. translators: %s: Plugin name
-#: wp-includes/script-loader.php:662
+#: wp-includes/script-loader.php:664
 msgid "Are you sure you want to delete %s and its data?"
 msgstr "Bist du sicher, dass du %s und die dazugehörigen Daten löschen möchtest?"
 
@@ -1911,7 +1908,7 @@ msgstr "Bist du sicher, dass du das tun möchtest?"
 msgid "Are you sure that you have typed the correct hostname?"
 msgstr "Bist du sicher, dass du den Hostnamen richtig eingegeben hast?"
 
-#: wp-includes/script-loader.php:663
+#: wp-includes/script-loader.php:665
 msgid "Are you sure you want to delete the selected plugins and their data?"
 msgstr "Bist du sicher, dass du die ausgewählten Plugins und deren Daten löschen möchtest?"
 
@@ -2004,7 +2001,7 @@ msgstr "Bitte warte noch ein bisschen. Manchmal verzögert sich die Zustellung v
 msgid "Blue"
 msgstr "Blau"
 
-#: wp-includes/general-template.php:3374
+#: wp-includes/general-template.php:3373
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blau"
@@ -2145,7 +2142,7 @@ msgstr "Das bedeutet entweder, dass die Information über den Zugangsnamen und d
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Das bedeutet, dass wir die Verbindung zum Datenbank-Server unter %s verloren haben. Möglicherweise ist der Datenbank-Server deines Hostings derzeit nicht verfügbar."
 
-#: wp-includes/script-loader.php:717
+#: wp-includes/script-loader.php:719
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "Das Bild konnte nicht als Vorschaubild gesetzt werden. Versuche es mit einem anderen."
 
@@ -2175,7 +2172,7 @@ msgstr "Das Profil konnte nicht erstellt werden"
 msgid "Site registration has been disabled."
 msgstr "Das Registrieren von Websites ist deaktiviert."
 
-#: wp-includes/post.php:3304
+#: wp-includes/post.php:3315
 msgid "The page template is invalid."
 msgstr "Das Seitentemplate ist ungültig."
 
@@ -2794,7 +2791,7 @@ msgstr "Die übergebene ID gehört zu keinem Menüeintrag."
 msgid "The URL to the admin area"
 msgstr "Die URL zum Adminbereich"
 
-#: wp-includes/script-loader.php:558 wp-includes/script-loader.php:680
+#: wp-includes/script-loader.php:558 wp-includes/script-loader.php:682
 msgid "Connection lost or the server is busy. Please try again later."
 msgstr "Die Verbindung zum Server wurde unterbrochen oder der Server ist ausgelastet. Bitte versuche es später noch einmal."
 
@@ -3059,7 +3056,7 @@ msgstr "Du bist bereits angemeldet und brauchst dich nicht erneut zu registriere
 msgid "Sites you are already a member of:"
 msgstr "Du bist bereits Mitglied der folgenden Websites:"
 
-#: wp-includes/script-loader.php:725
+#: wp-includes/script-loader.php:727
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -3417,7 +3414,7 @@ msgid "An error has occurred, which probably means the feed is down. Try again l
 msgstr "Ein Fehler ist aufgetreten – der Feed funktioniert zur Zeit nicht. Versuche es später noch einmal."
 
 #: wp-includes/class-wp-customize-widgets.php:729
-#: wp-includes/script-loader.php:681 wp-includes/script-loader.php:705
+#: wp-includes/script-loader.php:683 wp-includes/script-loader.php:707
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Ein Fehler ist aufgetreten. Bitte lade die Seite neu und versuche es noch einmal."
 
@@ -3449,7 +3446,7 @@ msgstr "Ein neuer Trackback zum Beitrag „%s“ wartet auf deine Freigabe"
 msgid "A search form for your site."
 msgstr "Ein Suchformular für deine Website."
 
-#: wp-includes/script-loader.php:679
+#: wp-includes/script-loader.php:681
 msgid "An unknown error occurred"
 msgstr "Ein unbekannter Fehler ist aufgetreten"
 
@@ -3594,7 +3591,7 @@ msgstr "Einzug erhöhen"
 msgid "Decrease indent"
 msgstr "Einzug verringern"
 
-#: wp-includes/general-template.php:3392
+#: wp-includes/general-template.php:3391
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Ektoplasma"
@@ -3788,7 +3785,7 @@ msgstr "Es ist nicht erlaubt, die Registrierung eines integrierten Inhaltstyps a
 msgid "No editor could be selected."
 msgstr "Es konnte kein Editor ausgewählt werden."
 
-#: wp-includes/script-loader.php:683
+#: wp-includes/script-loader.php:685
 msgid "No plugins found. Try a different search."
 msgstr "Es konnten keine Plugins gefunden werden. Versuche es bitte mit einem anderen Suchbegriff."
 
@@ -3827,7 +3824,7 @@ msgid "Attempting to parse a shortcode without a valid callback: %s"
 msgstr "Es wurde versucht, einen Shortcode ohne gültigen Callback zu parsen: %s"
 
 #: wp-includes/class-wp-customize-nav-menus.php:254
-#: wp-includes/script-loader.php:423 wp-includes/script-loader.php:724
+#: wp-includes/script-loader.php:423 wp-includes/script-loader.php:726
 msgid "No results found."
 msgstr "Es wurden keine Kommentare gefunden, die deinen Suchkriterien entsprechen."
 
@@ -3887,7 +3884,7 @@ msgstr "Falls du deine Website nicht innerhalb von zwei Tagen aktivierst, musst 
 msgid "Color"
 msgstr "Farbe"
 
-#: wp-includes/script-loader.php:694
+#: wp-includes/script-loader.php:696
 msgid "Select Color"
 msgstr "Farbe wählen"
 
@@ -3963,7 +3960,7 @@ msgctxt "Cancel reordering widgets in Customizer"
 msgid "Done"
 msgstr "Fertig"
 
-#: wp-includes/script-loader.php:718
+#: wp-includes/script-loader.php:720
 msgid "Done"
 msgstr "Fertig"
 
@@ -4115,7 +4112,7 @@ msgstr "Ganze Wörter"
 msgid "Yellow"
 msgstr "Gelb"
 
-#: wp-includes/script-loader.php:668
+#: wp-includes/script-loader.php:670
 msgid "Deleted!"
 msgstr "Gelöscht!"
 
@@ -4337,7 +4334,7 @@ msgstr "Header-Bild ausblenden"
 msgid "Light"
 msgstr "Hell"
 
-#: wp-includes/general-template.php:3368
+#: wp-includes/general-template.php:3367
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Hell"
@@ -4356,7 +4353,7 @@ msgstr "Heraus von unterhalb %s"
 msgid "Congratulations! Your new site, %s, is almost ready."
 msgstr "Herzlichen Glückwunsch! Deine neue Website – %s – ist beinahe fertig."
 
-#: wp-includes/script-loader.php:950
+#: wp-includes/script-loader.php:952
 msgid "Today"
 msgstr "Heute"
 
@@ -4585,12 +4582,12 @@ msgctxt "spellcheck"
 msgid "Ignore"
 msgstr "Ignorieren"
 
-#: wp-includes/script-loader.php:676
+#: wp-includes/script-loader.php:678
 msgid "Run Importer"
 msgstr "Importer ausführen"
 
 #. translators: %s: Activation URL
-#: wp-includes/script-loader.php:658
+#: wp-includes/script-loader.php:660
 msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
 msgstr "Importer erfolgreich installiert. <a href=\"%s\">Importer ausführen</a>."
 
@@ -4682,40 +4679,35 @@ msgstr "Inline"
 msgid "Inline toolbar (when an image, link or preview is selected)"
 msgstr "Inline-Werkzeugleiste (wenn ein Bild, ein Link oder die Vorschau ausgewählt ist)"
 
-#: wp-includes/script-loader.php:655
+#: wp-includes/script-loader.php:657
 msgid "Installing... please wait."
 msgstr "Installation … bitte warten."
 
-#: wp-includes/script-loader.php:656
+#: wp-includes/script-loader.php:658
 msgid "Installation completed successfully."
 msgstr "Installation erfolgreich abgeschlossen."
 
 #. translators: %s: Error string for a failed installation
-#: wp-includes/script-loader.php:642
+#: wp-includes/script-loader.php:644
 msgid "Installation failed: %s"
 msgstr "Installation fehlgeschlagen: %s"
 
-#: wp-includes/script-loader.php:640
+#: wp-includes/script-loader.php:642
 msgid "Install Failed!"
 msgstr "Installation fehlgeschlagen!"
 
-#: wp-includes/script-loader.php:638
+#: wp-includes/script-loader.php:640
 msgid "Installing..."
 msgstr "Installiere …"
 
-#. translators: %s: Plugin name
-#: wp-includes/script-loader.php:637
-msgid "Install %s"
-msgstr "Installiere %s"
-
 #. translators: %s: Plugin name and version
-#: wp-includes/script-loader.php:644
+#: wp-includes/script-loader.php:646
 msgctxt "plugin"
 msgid "Installing %s..."
 msgstr "Installiere %s..."
 
 #. translators: %s: Theme name and version
-#: wp-includes/script-loader.php:646
+#: wp-includes/script-loader.php:648
 msgctxt "theme"
 msgid "Installing %s..."
 msgstr "Installiere %s..."
@@ -4725,7 +4717,7 @@ msgctxt "translations"
 msgid "Installed"
 msgstr "Installiert"
 
-#: wp-includes/script-loader.php:639
+#: wp-includes/script-loader.php:641
 msgid "Installed!"
 msgstr "Installiert!"
 
@@ -4804,11 +4796,21 @@ msgstr "Januar"
 msgid "Someone has requested a password reset for the following account:"
 msgstr "Jemand hat das Zurücksetzen des Passworts für folgendes Konto angefordert:"
 
+#. translators: %s: Plugin name and version
+#: wp-includes/script-loader.php:620
+msgid "Update %s now"
+msgstr "Jetzt %s aktualisieren"
+
+#. translators: %s: Plugin name
+#: wp-includes/script-loader.php:639
+msgid "Install %s now"
+msgstr "Jetzt %s installieren"
+
 #: wp-includes/script-loader.php:618
 msgid "Update Now"
 msgstr "Jetzt aktualisieren"
 
-#: wp-includes/script-loader.php:635
+#: wp-includes/script-loader.php:637
 msgid "Install Now"
 msgstr "Jetzt installieren"
 
@@ -4846,7 +4848,7 @@ msgctxt "genitive"
 msgid "June"
 msgstr "Juni"
 
-#: wp-includes/general-template.php:3404
+#: wp-includes/general-template.php:3403
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Kaffee"
@@ -5104,7 +5106,7 @@ msgstr "Kommentare zu: %s"
 msgid "Failed to write request to temporary file."
 msgstr "Konnte Anfrage nicht in die temporäre Datei schreiben."
 
-#: wp-includes/script-loader.php:710
+#: wp-includes/script-loader.php:712
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "Konnte das Vorschaubild nicht laden. Bitte lade die Seite neu und versuche es erneut. "
 
@@ -5182,7 +5184,7 @@ msgstr "Laut schalten"
 msgid "Volume Slider"
 msgstr "Lautstärkeregler"
 
-#: wp-includes/media-template.php:594 wp-includes/script-loader.php:692
+#: wp-includes/media-template.php:594 wp-includes/script-loader.php:694
 msgid "Clear"
 msgstr "Leeren"
 
@@ -5356,7 +5358,7 @@ msgid "List item"
 msgstr "Listeneintrag"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:87
-#: wp-includes/script-loader.php:669
+#: wp-includes/script-loader.php:671
 msgid "Live Preview"
 msgstr "Live-Vorschau"
 
@@ -5399,12 +5401,12 @@ msgctxt "verb"
 msgid "Trash"
 msgstr "Löschen"
 
-#: wp-includes/script-loader.php:665
+#: wp-includes/script-loader.php:667
 msgid "Deleting..."
 msgstr "Löschen …"
 
 #. translators: %s: Error string for a failed deletion
-#: wp-includes/script-loader.php:667
+#: wp-includes/script-loader.php:669
 msgid "Deletion failed: %s"
 msgstr "Löschen fehlgeschlagen: %s"
 
@@ -5496,7 +5498,7 @@ msgstr "Mediendatei verlinken"
 msgid "Edit Media"
 msgstr "Medium bearbeiten"
 
-#: wp-includes/general-template.php:3398
+#: wp-includes/general-template.php:3397
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Meer"
@@ -5672,7 +5674,7 @@ msgctxt "password strength"
 msgid "Medium"
 msgstr "Mittel"
 
-#: wp-includes/general-template.php:3380
+#: wp-includes/general-template.php:3379
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Mitternacht"
@@ -5693,7 +5695,7 @@ msgid "Enter mobile preview mode"
 msgstr "Mobile Vorschau anzeigen"
 
 #. translators: %s: Theme name
-#: wp-includes/script-loader.php:660
+#: wp-includes/script-loader.php:662
 msgid "Are you sure you want to delete %s?"
 msgstr "Möchtest du %s wirklich löschen?"
 
@@ -5847,11 +5849,11 @@ msgstr "Netzwerkverwaltung"
 msgid "Network Admin: %s"
 msgstr "Netzwerkverwaltung: %s"
 
-#: wp-includes/script-loader.php:670
+#: wp-includes/script-loader.php:672
 msgid "Network Activate"
 msgstr "Netzwerkweit aktivieren"
 
-#: wp-includes/script-loader.php:671
+#: wp-includes/script-loader.php:673
 msgid "Network Enable"
 msgstr "Netzwerkweit freischalten"
 
@@ -6027,7 +6029,7 @@ msgstr "Nicht vorhandene Begriffe."
 #. translators: To add an additional Open Sans character subset specific to
 #. your language, translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not
 #. translate into your own language.
-#: wp-includes/script-loader.php:780
+#: wp-includes/script-loader.php:782
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -6149,7 +6151,7 @@ msgstr "Oktober"
 #. translators: If there are characters in your language that are not supported
 #. by Open Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: wp-includes/script-loader.php:774
+#: wp-includes/script-loader.php:776
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
@@ -6598,7 +6600,7 @@ msgstr "Schleife"
 
 #: wp-includes/class-wp-editor.php:872 wp-includes/class-wp-editor.php:1417
 #: wp-includes/script-loader.php:261 wp-includes/script-loader.php:342
-#: wp-includes/script-loader.php:457 wp-includes/script-loader.php:949
+#: wp-includes/script-loader.php:457 wp-includes/script-loader.php:951
 msgid "Close"
 msgstr "Schließen"
 
@@ -6800,7 +6802,7 @@ msgstr "Softwareversion"
 msgid "Special character"
 msgstr "Sonderzeichen"
 
-#: wp-includes/general-template.php:3386
+#: wp-includes/general-template.php:3385
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Sonnenaufgang"
@@ -6879,7 +6881,7 @@ msgstr "Spam"
 msgid "Spam it: %s"
 msgstr "Spam: %s"
 
-#: wp-includes/script-loader.php:716
+#: wp-includes/script-loader.php:718
 msgid "Saving..."
 msgstr "Speichere …"
 
@@ -6915,7 +6917,7 @@ msgstr "Spuren (Untertitel, Beschreibungen, Kapitel oder Meta-Daten) "
 #: wp-includes/customize/class-wp-customize-color-control.php:41
 #: wp-includes/customize/class-wp-customize-image-control.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:62
-#: wp-includes/script-loader.php:693
+#: wp-includes/script-loader.php:695
 msgid "Default"
 msgstr "Standard"
 
@@ -6924,7 +6926,7 @@ msgctxt "list style"
 msgid "Default"
 msgstr "Standard"
 
-#: wp-includes/general-template.php:3358
+#: wp-includes/general-template.php:3357
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Standard"
@@ -7426,7 +7428,7 @@ msgstr "Ungültige ID für Autor*in."
 #: wp-includes/class-wp-xmlrpc-server.php:5998
 #: wp-includes/class-wp-xmlrpc-server.php:6052
 #: wp-includes/class-wp-xmlrpc-server.php:6171 wp-includes/post.php:2916
-#: wp-includes/post.php:3439 wp-includes/revision.php:292
+#: wp-includes/post.php:3450 wp-includes/revision.php:292
 msgid "Invalid post ID."
 msgstr "Ungültige ID für Beitrag."
 
@@ -7887,7 +7889,7 @@ msgstr "Vorgeschlagener Embed Nr. %d"
 msgid "Suggested image #%d"
 msgstr "Vorgeschlagenes Bild Nr. %d"
 
-#: wp-includes/script-loader.php:954
+#: wp-includes/script-loader.php:956
 msgid "Previous"
 msgstr "Vorherige"
 
@@ -7966,7 +7968,7 @@ msgstr "Vorschaubild auswählen"
 msgid "Remove poster image"
 msgstr "Vorschaubild entfernen"
 
-#: wp-includes/script-loader.php:664
+#: wp-includes/script-loader.php:666
 msgid "Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?"
 msgstr "Vorsicht: Diese Themes können auf anderen Websites des Netzwerks aktiv sein. Bist du sicher, dass du fortfahren möchtest?"
 
@@ -8083,11 +8085,11 @@ msgctxt "next post"
 msgid "Next"
 msgstr "Weiter"
 
-#: wp-includes/script-loader.php:953 wp-signup.php:559
+#: wp-includes/script-loader.php:955 wp-signup.php:559
 msgid "Next"
 msgstr "Weiter"
 
-#: wp-includes/general-template.php:3190
+#: wp-includes/general-template.php:3189
 msgid "Next &raquo;"
 msgstr "Weiter &raquo;"
 
@@ -8176,8 +8178,7 @@ msgstr "Widget nach oben verschoben"
 msgid "Widget moved down"
 msgstr "Widget nach unten verschoben"
 
-#: wp-includes/admin-bar.php:736
-#: wp-includes/class-wp-customize-widgets.php:418
+#: wp-includes/admin-bar.php:736 wp-includes/class-wp-customize-widgets.php:418
 #: wp-includes/functions.php:3583
 msgid "Widgets"
 msgstr "Widgets"
