@@ -15,6 +15,13 @@ class Stringintelligenz {
 	private $overwrite_folder;
 
 	/**
+	 * Folder with template files.
+	 *
+	 * @var string
+	 */
+	private $templates_folder;
+
+	/**
 	 * Constructor. Sets up the properties.
 	 *
 	 * @since 0.1.0-alpha
@@ -25,6 +32,9 @@ class Stringintelligenz {
 
 		// Set folder for overwrites.
 		$this->overwrite_folder = dirname( $file ) . '/languages';
+
+		// Set folder for template files.
+		$this->templates_folder = dirname( $file ) . '/templates';
 	}
 
 	/**
@@ -36,17 +46,26 @@ class Stringintelligenz {
 	 */
 	public function initialize() {
 
+		/**
+		 * Stringintelligenz admin notice model class.
+		 */
+		require_once dirname( __FILE__ ) . '/StringintelligenzAdminNotice.php';
+
 		// Only for de_DE (informal) for now.
 		if ( 'de_DE' !== get_locale() ) {
-			/**
-			 * Stringintelligenz admin notice class.
-			 */
-			require_once dirname( __FILE__ ) . '/StringintelligenzAdminNotice.php';
-
-			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(), 'render' ) );
+			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(
+				$this->templates_folder . '/admin-notice-locale-not-supported.php'
+			), 'render' ) );
 
 			return;
 		}
+
+		add_action( 'admin_notices', array(
+			new StringintelligenzAdminNotice(
+				$this->templates_folder . '/admin-notice-plugin-activated.php'
+			),
+			'render'
+		) );
 
 		/**
 		 * Stringintelligenz Core override checker class.
