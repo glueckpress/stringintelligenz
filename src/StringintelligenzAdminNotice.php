@@ -3,34 +3,76 @@
 /**
  * Class StringintelligenzAdminNotice.
  *
- * Admin notice informing the user when the current locale does not qualify for being overwritten by Stringintelligenz.
+ * Admin notice model.
  */
 class StringintelligenzAdminNotice {
 
 	/**
-	 * Notifies user when their installed locale does not qualify.
+	 * @var string
+	 */
+	private $classes;
+
+	/**
+	 * @var string
+	 */
+	private $template;
+
+	/**
+	 * Constructor. Sets up the properties.
+	 *
+	 * @since 0.1.0-alpha
+	 *
+	 * @param string $template Template file path.
+	 * @param array  $args     {
+	 *     Optional. Configuration arguments. Defaults to empty array.
+	 *
+	 *     @type string  $type        Notice type. Possible values: 'warning' (default), 'error', 'success', and 'info'.
+	 *     @type bool    $dismissible Whether or not the admin notice should be marked dismissible. Defaults to true.
+	 * }
+	 */
+	public function __construct( $template, array $args = array() ) {
+
+		$this->template = (string) $template;
+
+		$args = array_merge( array(
+			'type'        => 'warning',
+			'dismissible' => true,
+		), $args );
+
+		$classes = array(
+			'notice',
+			"notice-{$args['type']}",
+		);
+		if ( $args['dismissible'] ) {
+			$classes[] = 'is-dismissible';
+		}
+		$this->classes = implode( ' ', $classes );
+	}
+
+	/**
+	 * Renders the admin notice.
 	 *
 	 * @since   0.1.0-alpha
 	 * @wp-hook admin_notices
 	 *
-	 * @return void
+	 * @return bool True if the admin notice was rendered successfully, false if the template file is not readable.
 	 */
 	public function render() {
 
+		if ( ! ( file_exists( $this->template ) && is_readable( $this->template ) ) ) {
+			return false;
+		}
+
 		?>
-		<div class="notice notice-warning is-dismissible">
-			<h4><?php _e( '🙅✋👁📢&#160;Achtung! Stringintelligenz only supports default (<dfn title="That’s de_DE as a locale.">informal</dfn>) German for now.', 'stringintelligenz' ); ?></h4>
-			<p><?php
-				printf(
-					__(
-						'Switch to <strong>“Deutsch”</strong> in <a href="%s">Settings→General→Site&#160;Language</a> in order to enable gender-sensitive German in your WordPress admin interface.<br><em>(Quick check: As an administrator you should see the word “Profil” instead of “Benutzer” in your admin menu after you have activated Deutsch.)</em>',
-						'stringintelligenz'
-					),
-					admin_url( 'options-general.php' )
-				);
-				?>
-			</p>
+		<div class="<?php echo esc_attr( $this->classes ); ?>">
+			<?php
+			/** @noinspection PhpIncludeInspection
+			 * Template file.
+			 */
+			require $this->template;
+			?>
 		</div>
 		<?php
+		return true;
 	}
 }
