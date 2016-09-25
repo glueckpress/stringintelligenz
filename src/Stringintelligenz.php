@@ -62,7 +62,8 @@ class Stringintelligenz {
 
 		add_action( 'admin_notices', array(
 			new StringintelligenzAdminNotice(
-				$this->templates_folder . '/admin-notice-plugin-activated.php'
+				$this->templates_folder . '/admin-notice-plugin-activated.php',
+				array( 'type' => 'success' )
 			),
 			'render'
 		) );
