@@ -65,4 +65,4 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 == Changelog ==
 
 = 0.1 =
-* … und allem Anfang wohnt ein Zauber inne.
+* … und jedem Anfang wohnt ein Zauber inne.
