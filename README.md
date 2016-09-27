@@ -21,3 +21,5 @@ Das Plugin muss nicht konfiguriert werden und funktioniert in jeder WordPress-In
 
 ## Feedback
 Feedback und Verbesserungsvorschläge sind ausdrücklich erwünscht. Momentan stehen uns dazu GitHub-Issues zur Verfügung. Die Einreichung des Plugins im Pluginverzeichnis auf wordpress.org, sowie die Nutzung des Plugin-Forums als Feedback-Plattform sind in Vorbereitung.
+
+_[Wieso das Ganze?](/CONTEXT.md)_

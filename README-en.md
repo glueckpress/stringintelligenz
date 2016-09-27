@@ -36,7 +36,7 @@ German offers several widely spread solutions to address this problem in written
 - `Leitende_r Entwickler_in` (“Gender Gap”)
 - `Leitende*r Entwickler*in` (“Gender Star”)
 
-All of these “shortcuts” would be read and understood in the context of the individual they got applied to.
+All of these “gender suffixes” would be read and understood in the context of the individual they got applied to.
 
 **Helen** would be understood as female:
 ```
@@ -47,7 +47,7 @@ while **Mark** would be understood as male:
 Leitender Entwickler
 ```
 
-**Plural forms** would be read as both, female and male:
+**Plural forms** would be understood as both, female and male:
 ```
 Leitende Entwickler*innen
 ```
@@ -56,10 +56,10 @@ would be read as lead developers (female and male):
 Leitende Entwicklerinnen und leitende Entwickler
 ```
 
-_**Note:** Gender scientists often recommend to try simplifying and neutralizing an expression first before applying any “shortcut” solution. In many cases phrasing can be adjusted to not rely on gender specifications. The “gender star” (e.g. `Entwickler*in` for a male/female/trans developer) is used by several official institutions in Germany._
+_**Note:** Gender scientists often recommend to try simplifying and “neutralizing” an expression first instead of using gender suffixes. In many cases phrasing can be adjusted to not rely on gender specific expressions._
 
 #### Why WordPress? Why Now?
-WordPress in German has over 1.2 million active installs. The potential impact of a gender-sensitive German UI for WordPress core could turn out as a significant contribution for the progress of gender-sensitive software interfaces in German in general.
+WordPress in German has over 3 million active installs. The potential impact of a gender-sensitive German UI for WordPress core could turn out as a significant contribution for the progress of gender-sensitive software interfaces in German in general.
 
 Gender-sensitive language in core language packs could not only make WordPress in German more friendly and inclusive, it could potentially serve as a role model for other Polyglot communities from WordPress.org, as well as from other open source projects to implement their own solutions.
 
