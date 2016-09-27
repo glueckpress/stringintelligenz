@@ -19,7 +19,7 @@ The most prominent change you will see after activating **Stringintelligenz** (a
 
 > **Your feedback is appreciated!**
 >
-> **Stringintelligenz** is a localization feature plugin. It aims to merge its modified translations into German core language packs with WordPress 4.7, thus making **gender-sensitive language a default for WordPress in German**. So we highly appreciate your feedback!
+> **Stringintelligenz** is a localization feature plugin. It aims to merge its modified translations into German core language packs with WordPress 4.7, thus making **gender-sensitive language a default for WordPress in German**. We highly appreciate your feedback!
 >
 > * How do you like the modified translations? _(Bonus points for an educated opinion!)_
 > * Would you like to see any gender-related translations improved?
