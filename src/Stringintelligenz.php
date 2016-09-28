@@ -77,6 +77,11 @@ class Stringintelligenz {
 		 */
 		require_once dirname( __FILE__ ) . '/StringintelligenzDismissController.php';
 
+		add_action( 'wp_ajax_stringintelligenz-dismiss-admin-notice', array(
+			new StringintelligenzDismissController(),
+			'handle_dismiss_request'
+		) );
+
 		// Only for de_DE (informal) for now.
 		if ( 'de_DE' !== get_locale() ) {
 			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(
@@ -92,11 +97,6 @@ class Stringintelligenz {
 				array( 'type' => 'success' )
 			),
 			'render'
-		) );
-
-		add_action( 'wp_ajax_stringintelligenz-dismiss-admin-notice', array(
-			new StringintelligenzDismissController(),
-			'handle_dismiss_request'
 		) );
 
 		/**
