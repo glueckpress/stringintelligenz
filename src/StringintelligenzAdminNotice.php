@@ -13,6 +13,11 @@ class StringintelligenzAdminNotice {
 	private $classes;
 
 	/**
+	 * @var bool
+	 */
+	private $is_dismissible;
+
+	/**
 	 * @var string
 	 */
 	private $template;
@@ -47,6 +52,8 @@ class StringintelligenzAdminNotice {
 			$classes[] = 'is-dismissible';
 		}
 		$this->classes = implode( ' ', $classes );
+
+		$this->is_dismissible = (bool) $args['dismissible'];
 	}
 
 	/**
@@ -63,8 +70,17 @@ class StringintelligenzAdminNotice {
 			return false;
 		}
 
+		$hash = $this->get_hash();
+
+		if ( $this->is_dismissible ) {
+			$dismiss_controller = new StringintelligenzDismissController();
+			if ( $dismiss_controller->notice_dismissed( $hash ) ) {
+				return false;
+			}
+		}
 		?>
-		<div class="<?php echo esc_attr( $this->classes ); ?>">
+		<div class="<?php echo esc_attr( $this->classes ); ?>" data-hash="<?php echo esc_attr( $hash ); ?>"
+			data-nonce="<?php echo esc_attr( wp_create_nonce( $hash ) ); ?>">
 			<?php
 			/** @noinspection PhpIncludeInspection
 			 * Template file.
@@ -74,5 +90,21 @@ class StringintelligenzAdminNotice {
 		</div>
 		<?php
 		return true;
+	}
+
+	/**
+	 * Returns the hash for the admin notice.
+	 *
+	 * @return string Admin notice hash.
+	 */
+	private function get_hash() {
+
+		$template = str_replace( '\\', '/', $this->template );
+
+		$parts = explode( '/', $template );
+
+		$name = end( $parts );
+
+		return md5( $name );
 	}
 }

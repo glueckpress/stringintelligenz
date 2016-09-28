@@ -8,6 +8,13 @@
 class Stringintelligenz {
 
 	/**
+	 * Main plugin file.
+	 *
+	 * @var string
+	 */
+	private $file;
+
+	/**
 	 * Folder with the overwrite files.
 	 *
 	 * @var string
@@ -30,6 +37,9 @@ class Stringintelligenz {
 	 */
 	public function __construct( $file ) {
 
+		// Set main plugin file.
+		$this->file = (string) $file;
+
 		// Set folder for overwrites.
 		$this->overwrite_folder = dirname( $file ) . '/languages';
 
@@ -45,6 +55,17 @@ class Stringintelligenz {
 	 * @return void
 	 */
 	public function initialize() {
+
+		/**
+		 * Stringintelligenz JavaScript file model for dismissing admin notices.
+		 */
+		require_once dirname( __FILE__ ) . '/StringintelligenzDismissAdminNoticeScript.php';
+
+		// We will be showing a dismissible admin notice no matter what, so we enqueue the according script right away.
+		add_action( 'admin_enqueue_scripts', array(
+			new StringintelligenzDismissAdminNoticeScript( $this->file ),
+			'enqueue'
+		) );
 
 		/**
 		 * Stringintelligenz admin notice model class.
@@ -66,6 +87,16 @@ class Stringintelligenz {
 				array( 'type' => 'success' )
 			),
 			'render'
+		) );
+
+		/**
+		 * Stringintelligenz dismissible admin notice controller class.
+		 */
+		require_once dirname( __FILE__ ) . '/StringintelligenzDismissController.php';
+
+		add_action( 'wp_ajax_stringintelligenz-dismiss-admin-notice', array(
+			new StringintelligenzDismissController(),
+			'handle_dismiss_request'
 		) );
 
 		/**
