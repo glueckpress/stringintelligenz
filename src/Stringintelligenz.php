@@ -50,7 +50,6 @@ class Stringintelligenz {
 		 * Stringintelligenz admin notice model class.
 		 */
 		require_once dirname( __FILE__ ) . '/StringintelligenzAdminNotice.php';
-		require  dirname( dirname( __FILE__ ) ) . '/vendor/persist-admin-notices-dismissal/persist-admin-notices-dismissal.php';
 
 		// Only for de_DE (informal) for now.
 		if ( 'de_DE' !== get_locale() ) {

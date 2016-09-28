@@ -32,13 +32,6 @@ class StringintelligenzAdminNotice {
 	 */
 	public function __construct( $template, array $args = array() ) {
 
-		// @todo Is this in the right place here?
-		add_action( 'admin_init', array( 'PAnD', 'init' ) );
-
-		// Debug: Delete site transients to make notices re-appear.
-		// delete_site_transient( 'admin-notice-plugin-activated' );
-		// delete_site_transient( 'admin-notice-locale-not-supported' );
-
 		$this->template = (string) $template;
 
 		$args = array_merge( array(
@@ -70,20 +63,8 @@ class StringintelligenzAdminNotice {
 			return false;
 		}
 
-		// @todo This begs for something more elegant.
-		$template_nice_name = substr(
-			substr( strrchr( $this->template, '/' ), 1 ),
-			0, -4
-		);
-		$data_dismissible = $template_nice_name . '-forever';
-
-		// @todo Should that method be called like this?
-		if ( ! PAnD::is_admin_notice_active( $data_dismissible ) ) {
-			return  false;
-		}
-
 		?>
-		<div data-dismissible="<?php echo esc_attr( $data_dismissible ) ?>" class="<?php echo esc_attr( $this->classes ); ?>">
+		<div class="<?php echo esc_attr( $this->classes ); ?>">
 			<?php
 			/** @noinspection PhpIncludeInspection
 			 * Template file.
