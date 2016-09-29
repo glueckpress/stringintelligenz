@@ -19,4 +19,4 @@
 </div>
 <hr>
 <p><em>Nota bene: Wer trollt, ist selber schuld.</em>
-	<br><em>Nota optime: Wenn du dieses Nachricht wegklickst, bleibt sie weg.</em></p>
+	<br><em>Nota optime: Wenn du diese Nachricht wegklickst, bleibt sie weg.</em></p>
