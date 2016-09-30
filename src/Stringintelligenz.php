@@ -8,11 +8,25 @@
 class Stringintelligenz {
 
 	/**
+	 * Main plugin file.
+	 *
+	 * @var string
+	 */
+	private $file;
+
+	/**
 	 * Folder with the overwrite files.
 	 *
 	 * @var string
 	 */
 	private $overwrite_folder;
+
+	/**
+	 * Folder with template files.
+	 *
+	 * @var string
+	 */
+	private $templates_folder;
 
 	/**
 	 * Constructor. Sets up the properties.
@@ -23,8 +37,14 @@ class Stringintelligenz {
 	 */
 	public function __construct( $file ) {
 
+		// Set main plugin file.
+		$this->file = (string) $file;
+
 		// Set folder for overwrites.
 		$this->overwrite_folder = dirname( $file ) . '/languages';
+
+		// Set folder for template files.
+		$this->templates_folder = dirname( $file ) . '/templates';
 	}
 
 	/**
@@ -36,17 +56,48 @@ class Stringintelligenz {
 	 */
 	public function initialize() {
 
+		/**
+		 * Stringintelligenz JavaScript file model for dismissing admin notices.
+		 */
+		require_once dirname( __FILE__ ) . '/StringintelligenzDismissAdminNoticeScript.php';
+
+		// We will be showing a dismissible admin notice no matter what, so we enqueue the according script right away.
+		add_action( 'admin_enqueue_scripts', array(
+			new StringintelligenzDismissAdminNoticeScript( $this->file ),
+			'enqueue'
+		) );
+
+		/**
+		 * Stringintelligenz admin notice model class.
+		 */
+		require_once dirname( __FILE__ ) . '/StringintelligenzAdminNotice.php';
+
+		/**
+		 * Stringintelligenz dismissible admin notice controller class.
+		 */
+		require_once dirname( __FILE__ ) . '/StringintelligenzDismissController.php';
+
+		add_action( 'wp_ajax_stringintelligenz-dismiss-admin-notice', array(
+			new StringintelligenzDismissController(),
+			'handle_dismiss_request'
+		) );
+
 		// Only for de_DE (informal) for now.
 		if ( 'de_DE' !== get_locale() ) {
-			/**
-			 * Stringintelligenz admin notice class.
-			 */
-			require_once dirname( __FILE__ ) . '/StringintelligenzAdminNotice.php';
-
-			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(), 'render' ) );
+			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(
+				$this->templates_folder . '/admin-notice-locale-not-supported.php'
+			), 'render' ) );
 
 			return;
 		}
+
+		add_action( 'admin_notices', array(
+			new StringintelligenzAdminNotice(
+				$this->templates_folder . '/admin-notice-plugin-activated.php',
+				array( 'type' => 'success' )
+			),
+			'render'
+		) );
 
 		/**
 		 * Stringintelligenz Core override checker class.
