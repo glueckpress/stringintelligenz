@@ -7,6 +7,8 @@
  * Author URI:  https://profiles.wordpress.org/glueckpress
  * License:     GPLv3
  * License URI: http://www.gnu.org/licenses/gpl-3.0
+ * Text Domain: stringintelligenz
+ * Domain Path: /l10n
  */
 
 defined( 'ABSPATH' ) or die();

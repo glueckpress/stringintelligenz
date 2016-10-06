@@ -62,6 +62,13 @@ Yay! :) The easiest way for you to contribute would be to just post your suggest
 Contributing strings directly can get a bit tricky technically, but if you’re up for it, just shoot Caspar (@glueckpress) a message via [WordPress Slack](https://make.wordpress.org/chat/) or [German WordPress Slack](https://dewp.slack.com/).
 
 
+== Screenshots ==
+
+1. User list: renamed to “Profile”, gender-starred endings.
+2. A woman labeled as a developer in German.
+3. Stringintelligenz applied to the same label.
+
+
 == Changelog ==
 
 = 0.1.0 =
