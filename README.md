@@ -1,25 +1,31 @@
 # Stringintelligenz
 Gender-sensitive Sprache für WordPress in Deutsch
 
-_Stringintelligenz_ ist ein Feature-Plugin, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen. Ziel des Projekts ist die Übernahme einer gender-sensitiven Version in die offiziellen Sprachdateien für WordPress in Deutsch.
+**Stringintelligenz** ist ein Feature-Plugin, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen. Ziel des Projekts ist die Übernahme einer gender-sensitiven Version in die offiziellen Sprachdateien für WordPress in Deutsch.
 
-_Read a summary in English [here](/README-en.md)_
 
 Stringintelligenz…
 
-- eliminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
-- sorgt für alternative, geschlechterneutrale Formulierungen, wo dies möglich ist;
-- verwendet Formulierungen mit Gender-Star, wo alternative neutrale Formulierungen nicht sinnvoll sind.
+- …&#160;eliminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
+- …&#160;sorgt für alternative, geschlechterneutrale Formulierungen, wo dies möglich ist;
+- …&#160;verwendet Formulierungen mit Gender-Star, wo alternative neutrale Formulierungen nicht sinnvoll sind.
 
-**Hinweis: Die momentan verfügbare Version liefert den ersten Entwurf einer möglichen Überarbeitung der deutschen Sprachdateien. Das Hosting des Plugins auf wordpress.org, sowie die redaktionelle Begeleitung durch Blog-Artikel sind in Planung.**
+## Kontext
+* _[Wieso das Ganze?](/CONTEXT.md)_
+* _[Read a summary in English](/README-en.md)_
 
 ## Installation
-* ZIP herunterladen.
+### In WordPress:
+* Auf der Plugins-Seite in deinem WordPress nach „stringintelligenz“ suchen.
+* Plugin installieren und aktivieren.
+
+### …oder manuell:
+* ZIP aus dem [Plugin-Verzeichnis von wordpress.org](https://wordpress.org/plugins/stringintelligenz/) herunterladen.
 * ZIP über wp-admin/plugins.php hochladen und aktivieren.
 
 Das Plugin muss nicht konfiguriert werden und funktioniert in jeder WordPress-Installation, in der Deutsch (Du-Version) als aktive Sprache eingestellt ist.
 
 ## Feedback
-Feedback und Verbesserungsvorschläge sind ausdrücklich erwünscht. Momentan stehen uns dazu GitHub-Issues zur Verfügung. Die Einreichung des Plugins im Pluginverzeichnis auf wordpress.org, sowie die Nutzung des Plugin-Forums als Feedback-Plattform sind in Vorbereitung.
+Feedback und Verbesserungsvorschläge sind ausdrücklich erwünscht. **Schreib’ uns im [Plugin-Forum auf wordpress.org](https://wordpress.org/support/plugin/stringintelligenz/)** – und ja, es darf natürlich deutsch gesprochen werden.&#160;🙃
 
-_[Wieso das Ganze?](/CONTEXT.md)_
+🛠&#160;_Entwickler*innen: Pull Requests sind generell willkommen, wenngleich für Vorschläge zu Updates an den Sprachdateien nicht wirklich notwendig. Wenn ihr einen PR einreicht, eröffnet bitte zuvor ein Issue, das ihr in eurem PR referenziert._

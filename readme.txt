@@ -11,7 +11,7 @@ Gender-sensitive language for WordPress in German
 
 == Description ==
 
-**Stringintelligenz** is a feature project that aims to bring gender-sensitive language to German locales in WordPress.
+**Stringintelligenz** is a localization feature project that aims to bring gender-sensitive language to German locales in WordPress.
 
 This plugin swaps the German language packs for WordPress core with a set of language files containing a gender-sensitive translation of WordPress.
 
@@ -64,5 +64,5 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 
 == Changelog ==
 
-= 0.1 =
+= 0.1.0 =
 * … und jedem Anfang wohnt ein Zauber inne.
