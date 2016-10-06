@@ -45,7 +45,7 @@ No, this plugin only targets WordPress core. German translations of other plugin
 
 = Does this plugin introduce “genderized” word endings? =
 
-In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on user role labels: “Administrator*in”, “Redakteur*in”, “Autor*in”. We found it particularly hard to come up with an alternative for the latter one, so we decided to go with a gender star there.
+In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on user role labels: `Administrator*in`, `Redakteur*in`, `Autor*in`. We found it particularly hard to come up with an alternative for the latter one, so we decided to go with a gender star there.
 
 = Can I use this plugin for client sites? =
 
