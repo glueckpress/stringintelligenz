@@ -3,7 +3,7 @@ Contributors: glueckpress, elbmedien, tfrommen, kau-boy, benjaminbirkenhake
 Tags: german, l10n, translation
 Requires at least: 4.6
 Tested up to: 4.6
-Stable tag: 1.0.0
+Stable tag: 0.1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,7 +45,7 @@ No, this plugin only targets WordPress core. German translations of other plugin
 
 = Does this plugin introduce “genderized” word endings? =
 
-In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on user role labels: “Administrator*in”, “Redakteur*in”, “Autor*in”. We found it particularly hard to come up with an alternative for the latter one, so we decided to go with a gender star there.
+In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on user role labels: `Administrator*in`, `Redakteur*in`, `Autor*in`. We found it particularly hard to come up with an alternative for the latter one, so we decided to go with a gender star there.
 
 = Can I use this plugin for client sites? =
 
@@ -60,6 +60,13 @@ At least until its translations are merged into the default German language pack
 Yay! :) The easiest way for you to contribute would be to just post your suggestions over in the [plugin forums](https://wordpress.org/support/plugin/stringintelligenz/#new-post). We monitor these forums closely and will definitely reply to any suggestions you make.
 
 Contributing strings directly can get a bit tricky technically, but if you’re up for it, just shoot Caspar (@glueckpress) a message via [WordPress Slack](https://make.wordpress.org/chat/) or [German WordPress Slack](https://dewp.slack.com/).
+
+
+== Screenshots ==
+
+1. User list: renamed to “Profile”, gender-starred endings.
+2. A woman labeled as a developer in German.
+3. Stringintelligenz applied to the same label.
 
 
 == Changelog ==

@@ -29,6 +29,13 @@ class Stringintelligenz {
 	private $templates_folder;
 
 	/**
+	 * Folder with plugin localization files.
+	 *
+	 * @var string
+	 */
+	private $l10n_folder;
+
+	/**
 	 * Constructor. Sets up the properties.
 	 *
 	 * @since 0.1.0-alpha
@@ -45,6 +52,9 @@ class Stringintelligenz {
 
 		// Set folder for template files.
 		$this->templates_folder = dirname( $file ) . '/templates';
+
+		// Set folder for localization files of the plugin itself.
+		$this->l10n_folder = dirname( $file ) . '/l10n';
 	}
 
 	/**
@@ -55,6 +65,9 @@ class Stringintelligenz {
 	 * @return void
 	 */
 	public function initialize() {
+
+		// Load textdomain in order to be able to localize notices.
+		load_plugin_textdomain( 'stringintelligenz', false, $this->l10n_folder );
 
 		/**
 		 * Stringintelligenz JavaScript file model for dismissing admin notices.
