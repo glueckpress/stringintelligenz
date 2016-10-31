@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-06 15:42:20+0000\n"
+"PO-Revision-Date: 2016-10-31 07:15:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1228,7 +1228,7 @@ msgstr "Einige Kästen in dieser Ansicht enthalten Einstellungen, wie der Inhalt
 
 #: wp-admin/edit-form-advanced.php:432
 msgid "<strong>Publish</strong> &mdash; You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). The Password protected option allows you to set an arbitrary password for each post. The Private option hides the post from everyone except editors and administrators. Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
-msgstr "<strong>Veröffentlichen</strong> &ndash; Du kannst die Konditionen zur Veröffentlichung deines Beitrags im Kästchen Veröffentlichen festlegen. Klicke bei Status, Sichtbarkeit und (sofort) Veröffentlichen auf den Bearbeiten-Link, um mehr Optionen einzublenden. Die Sichtbarkeit beinhaltet Optionen für den Passwortschutz eines Beitrags oder die Festlegung, dass der Beitrag dauerhaft in deinem Blog oben gehalten werden soll (sticky). Die Einstellung zum Passwortschutz ermöglicht dir, für jeden Beitrag ein beliebiges Passwort festzulegen. Die Einstellung Privat versteckt Beiträge für jeden bis auf Administrator*innen und Redakteur*innen. (Sofort) Veröffentlichen ermöglicht dir, ein künftiges oder zurückliegendes Datum und Uhrzeit festzulegen, damit du die Veröffentlichung deines Beitrags planen oder Beiträge zurückdatieren kannst."
+msgstr "<strong>Veröffentlichen</strong> &ndash; Du kannst die Konditionen zur Veröffentlichung deines Beitrags im Kästchen Veröffentlichen festlegen. Klicke bei Status, Sichtbarkeit und (sofort) Veröffentlichen auf den Bearbeiten-Link, um mehr Optionen einzublenden. Die Sichtbarkeit beinhaltet Optionen für den Passwortschutz eines Beitrags oder die Festlegung, dass der Beitrag dauerhaft in deinem Blog oben gehalten werden soll (sticky). Die Einstellung zum Passwortschutz ermöglicht dir, für jeden Beitrag ein beliebiges Passwort festzulegen. Die Einstellung Privat versteckt Beiträge für alle, außer für die Rollen Administration und Redaktion. (Sofort) Veröffentlichen ermöglicht dir, ein künftiges oder zurückliegendes Datum und Uhrzeit festzulegen, damit du die Veröffentlichung deines Beitrags planen oder Beiträge zurückdatieren kannst."
 
 #: wp-admin/edit-form-advanced.php:436
 msgid "<strong>Format</strong> &mdash; Post Formats designate how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Please refer to the Codex for <a href=\"https://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions of each post format</a>. Your theme could enable all or some of 10 possible formats."
@@ -6361,31 +6361,31 @@ msgstr "Eine weitere %s Website"
 #: wp-admin/includes/schema.php:636
 msgctxt "User role"
 msgid "Administrator"
-msgstr "Administrator*in"
+msgstr "Administration"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:638
 msgctxt "User role"
 msgid "Editor"
-msgstr "Redakteur*in"
+msgstr "Redaktion"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:640
 msgctxt "User role"
 msgid "Author"
-msgstr "Autor*in"
+msgstr "Inhalte"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:642
 msgctxt "User role"
 msgid "Contributor"
-msgstr "Mitarbeiter*in"
+msgstr "Beiträge"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:644
 msgctxt "User role"
 msgid "Subscriber"
-msgstr "Abonnent*in"
+msgstr "Mitglied"
 
 #: wp-admin/includes/schema.php:904
 msgid "You must provide a domain name."
@@ -9034,7 +9034,7 @@ msgstr "Plugins vergrößern und erweitern den Funktionsumfang von WordPress. So
 
 #: wp-admin/plugins.php:374
 msgid "The search for installed plugins will search for terms in their name, description, or author."
-msgstr "Die Suche nach installierte Plugins beinhaltet die Suche in deren Namen, Beschreibung oder Autor."
+msgstr "Die Suche nach installierte Plugins beinhaltet die Suche in deren Namen, Beschreibung oder Herkunft."
 
 #. translators: %s: WordPress Plugin Directory URL
 #: wp-admin/plugins.php:377
@@ -10410,23 +10410,23 @@ msgstr "Hier ist ein grober Überblick über die verschiedenen Rollen und die je
 
 #: wp-admin/user-new.php:196
 msgid "Subscribers can read comments/comment/receive newsletters, etc. but cannot create regular site content."
-msgstr "Abonnent*innen können nur Kommentare lesen und abgeben, aber keine eigenen Inhalte erstellen."
+msgstr "Profile mit der Rolle „Mitglied“ können nur Kommentare lesen und abgeben, aber keine eigenen Inhalte erstellen."
 
 #: wp-admin/user-new.php:197
 msgid "Contributors can write and manage their posts but not publish posts or upload media files."
-msgstr "Mitarbeiter*innen können eigene Beiträge schreiben und bearbeiten, sie jedoch nicht veröffentlichen. Auch dürfen sie keine Dateien hochladen."
+msgstr "Profile mit der Rolle „Beiträge“ können eigene Beiträge schreiben und bearbeiten, sie jedoch nicht veröffentlichen. Auch dürfen sie keine Dateien hochladen."
 
 #: wp-admin/user-new.php:198
 msgid "Authors can publish and manage their own posts, and are able to upload files."
-msgstr "Autor*innen können ihre eigenen Beiträge veröffentlichen und verwalten, sowie Dateien hochladen."
+msgstr "Profile mit der Rolle „Inhalte“ können ihre eigenen Beiträge veröffentlichen und verwalten, sowie Dateien hochladen."
 
 #: wp-admin/user-new.php:199
 msgid "Editors can publish posts, manage posts as well as manage other people&#8217;s posts, etc."
-msgstr "Redakteur*innen können Beiträge, Seiten usw. veröffentlichen und verwalten, auch die von anderen Personen."
+msgstr "Profile mit der Rolle „Redaktion“ können Beiträge, Seiten usw. veröffentlichen und verwalten, auch die von anderen Personen."
 
 #: wp-admin/user-new.php:200
 msgid "Administrators have access to all the administration features."
-msgstr "Administrator*innen haben vollen Zugriff auf alle administrativen Funktionen."
+msgstr "Profile mit der Rolle „Administration“ haben vollen Zugriff auf alle administrativen Funktionen."
 
 #: wp-admin/user-new.php:206
 msgid "<a href=\"https://codex.wordpress.org/Users_Add_New_Screen\" target=\"_blank\">Documentation on Adding New Users</a>"
@@ -10589,7 +10589,7 @@ msgstr "Du kannst keine Profile entfernen."
 
 #: wp-admin/users.php:32
 msgid "This screen lists all the existing users for your site. Each user has one of five defined roles as set by the site admin: Site Administrator, Editor, Author, Contributor, or Subscriber. Users with roles other than Administrator will see fewer options in the dashboard navigation when they are logged in, based on their role."
-msgstr "Diese Übersichtsseite zeigt alle Profile deiner Website an. Jedes Profil hat eine von fünf vordefinierten Rollen, welche durch eine zur Administration berechtigte Person vergeben werden können: Administrator*in, Redakteur*in, Autor*in, Mitarbeiter*in, Abonnent*in. Profile, die nicht die Rolle Administrator*in haben, sehen je nach Rolle, nicht alle Einstellungen, Optionen etc."
+msgstr "Diese Übersichtsseite zeigt alle Profile deiner Website an. Jedes Profil hat eine von fünf vordefinierten Rollen, welche durch eine zur Administration berechtigte Person vergeben werden können: Administration, Redaktion, Inhalte, Beiträge, Mitglieder. Für Profile, die nicht die Rolle „Administration“ haben, werden je nach Rolle nicht alle Einstellungen, Optionen etc. angezeigt."
 
 #: wp-admin/users.php:33
 msgid "To add a new user for your site, click the Add New button at the top of the screen or Add New in the Users menu section."

@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-05 19:08:57+0000\n"
+"PO-Revision-Date: 2016-10-31 07:22:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.1.0\n"
+"X-Generator: GlotPress/2.2.0\n"
 "Language: de\n"
 "Project-Id-Version: WordPress - 4.6.x - Administration - Network Admin\n"
 
@@ -186,8 +186,8 @@ msgstr "Kein Spam"
 #: wp-admin/includes/class-wp-ms-users-list-table.php:142
 msgid "Super Admin <span class=\"count\">(%s)</span>"
 msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
-msgstr[0] "Super-Administrator*in <span class=\"count\">(%s)</span>"
-msgstr[1] "Super-Administrator*innen <span class=\"count\">(%s)</span>"
+msgstr[0] "Netzwerk-Administration <span class=\"count\">(%s)</span>"
+msgstr[1] "Netzwerk-Administration <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-ms-users-list-table.php:171
 msgctxt "user"
@@ -523,7 +523,7 @@ msgstr "Nutze die Suchfelder, um nach einem Profil oder einer Website zu suchen.
 
 #: wp-admin/network/index.php:42
 msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
-msgstr "Gib <strong>E-Mail-Adresse und Zugangsname</strong> an, um nach einem Profil zu suchen. Benutze einen Platzhalter, um nach Teilen eines Nutzernamens zu suchen, z.B. Profil&#42;."
+msgstr "Gib <strong>E-Mail-Adresse und Profilname</strong> an, um nach einem Profil zu suchen. Benutze einen Platzhalter, um nach Teilen eines Nutzernamens zu suchen, z.B. Profil&#42;."
 
 #: wp-admin/network/index.php:43
 msgid "To search for a site, <strong>enter the path or domain</strong>."
@@ -630,7 +630,7 @@ msgstr "Neues Profil hinzufügen"
 
 #: wp-admin/network/settings.php:167
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
-msgstr "Erlaube Website-Administrator*innen das Hinzufügen von neuen Profilen zu ihrer Website über „Profil &rarr; Hinzufügen“."
+msgstr "Erlaube Profilen mit der Rolle (Website-)Administration das Hinzufügen von neuen Profilen zu ihrer Website über „Profil &rarr; Hinzufügen“."
 
 #: wp-admin/network/settings.php:172
 msgid "Banned Names"
@@ -797,7 +797,7 @@ msgstr "Menüs aktivieren"
 
 #: wp-admin/network/settings.php:38
 msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
-msgstr "Super-Administrator*innen können nicht über den Optionen-Bereich hinzugefügt werden. Gehe über Netzwerk-Administration &rarr; Profile zur Liste der existierenden Profile und klicke auf den Zugangsnamen oder den Bearbeiten-Link unter dem Namen, dem du Administratorrechte geben möchtest. Du kommst dadurch auf die Profilseite und kannst per Checkbox die Rechte zur Netzwerk-Administration erteilen."
+msgstr "Profile können die Rolle Netzwerk-Administration nicht direkt über den Optionen-Bereich erhalten. Gehe über Netzwerk-Administration &rarr; Profile zur Liste der existierenden Profile und klicke auf den Profilnamen oder den Bearbeiten-Link unter dem Namen, dem du Netzwerk-Administratorrechte geben möchtest. Du kommst dadurch auf die Profilseite und kannst per Checkbox die Rechte zur Netzwerk-Administration erteilen."
 
 #: wp-admin/network/settings.php:43
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
@@ -864,7 +864,7 @@ msgstr "Die angeforderte Website existiert nicht."
 
 #: wp-admin/network/site-new.php:109
 msgid "The domain or path entered conflicts with an existing username."
-msgstr "Domain oder Pfad stehen im Konflikt mit einem bereits existierenden Zugangsnamen."
+msgstr "Domain oder Pfad stehen im Konflikt mit einem bereits existierenden Profilnamen."
 
 #: wp-admin/network/site-new.php:114
 msgid "There was an error creating the user."
@@ -920,7 +920,7 @@ msgstr "Es wird ein neues Profil angelegt, sofern nicht schon ein Profil mit die
 
 #: wp-admin/network/site-new.php:246
 msgid "The username and password will be mailed to this email address."
-msgstr "Der Zugangsname und das Passwort werden an die angegebene E-Mail-Adresse gesendet."
+msgstr "Der Profilname und das Passwort werden an die angegebene E-Mail-Adresse gesendet."
 
 #: wp-admin/network/site-new.php:258
 msgid "Add Site"
@@ -1009,7 +1009,7 @@ msgstr "Dieses Profil gehört schon zu dieser Website."
 
 #: wp-admin/network/site-users.php:223
 msgid "Enter the username of an existing user."
-msgstr "Gib den Zugangsnamen eines bestehenden Profils ein."
+msgstr "Gib den Profilnamen eines bestehenden Profils ein."
 
 #: wp-admin/network/site-users.php:229
 msgid "Select a user to change role."
@@ -1025,11 +1025,11 @@ msgstr "Das Profil wurde angelegt."
 
 #: wp-admin/network/site-users.php:241
 msgid "Enter the username and email."
-msgstr "Bitte Zugangsname und E-Mail-Adresse eingeben."
+msgstr "Bitte Profilname und E-Mail-Adresse eingeben."
 
 #: wp-admin/network/site-users.php:244
 msgid "Duplicated username or email address."
-msgstr "Schon vorhandener Zugangsname oder vorhandene E-Mail-Adresse."
+msgstr "Schon vorhandener Profilname oder vorhandene E-Mail-Adresse."
 
 #: wp-admin/network/site-users.php:289 wp-admin/network/user-new.php:132
 msgid "Add User"
@@ -1328,7 +1328,7 @@ msgstr "Warnung! Es ist ein Problem bei der Aktualisierung von %1$s aufgetreten.
 
 #: wp-admin/network/user-new.php:23
 msgid "Add User will set up a new user account on the network and send that person an email with username and password."
-msgstr "Die Funktion &#8222;Profil hinzufügen&#8220; erstellt ein neues Konto im Netzwerk und sendet der Person eine E-Mail mit Zugangsname und Passwort."
+msgstr "Die Funktion &#8222;Profil hinzufügen&#8220; erstellt ein neues Konto im Netzwerk und sendet der Person eine E-Mail mit Profilname und Passwort."
 
 #: wp-admin/network/user-new.php:24
 msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
@@ -1361,7 +1361,7 @@ msgstr "Zeige mit der Maus auf die Profile in der Liste, um die Bearbeiten-Links
 
 #: wp-admin/network/users.php:163
 msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
-msgstr "Du kannst ein Profil auch ändern, indem du direkt auf einen Zugangsnamen klickst."
+msgstr "Du kannst ein Profil auch ändern, indem du direkt auf einen Profilnamen klickst."
 
 #: wp-admin/network/users.php:164
 msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
