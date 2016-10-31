@@ -19,7 +19,7 @@ The most prominent change you will see after activating **Stringintelligenz** (a
 
 > **Your feedback is appreciated!**
 >
-> **Stringintelligenz** is a localization feature plugin. It aims to merge its modified translations into German core language packs with WordPress 4.7, thus making **gender-sensitive language a default for WordPress in German**. We highly appreciate your feedback!
+> **Stringintelligenz** is a localization feature plugin. It aims to eventually merge its modified translations into German core language packs, thus making **gender-sensitive language a default for WordPress in German**. We highly appreciate your feedback!
 >
 > * How do you like the modified translations? _(Bonus points for an educated opinion!)_
 > * Would you like to see any gender-related translations improved?
@@ -45,7 +45,7 @@ No, this plugin only targets WordPress core. German translations of other plugin
 
 = Does this plugin introduce “genderized” word endings? =
 
-In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on user role labels: `Administrator*in`, `Redakteur*in`, `Autor*in`. We found it particularly hard to come up with an alternative for the latter one, so we decided to go with a gender star there.
+In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on the word `Autor*in`. We found it particularly hard to come up with an alternative so far. (The single-word string `Author` is [used widely across multiple contexts](https://wordpress.org/support/topic/author-ohne-kontext/) in WordPress.)
 
 = Can I use this plugin for client sites? =
 
@@ -64,12 +64,18 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 
 == Screenshots ==
 
-1. User list: renamed to “Profile”, gender-starred endings.
+1. User list: renamed to “Profile”.
 2. A woman labeled as a developer in German.
 3. Stringintelligenz applied to the same label.
 
 
 == Changelog ==
+
+= 0.2.0 =
+* [Profilname anstatt Zugangsname](https://github.com/glueckpress/stringintelligenz/issues/8)
+* [neutrale Rollenbezeichnungen](https://github.com/glueckpress/stringintelligenz/issues/17)
+* [geringfügige Fehlerkorrekturen](https://github.com/glueckpress/stringintelligenz/issues/16)
+* Projekt-Ziel „WordPress 4.7“ entfernt
 
 = 0.1.0 =
 * … und jedem Anfang wohnt ein Zauber inne.
