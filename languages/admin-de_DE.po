@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-31 07:15:27+0000\n"
+"PO-Revision-Date: 2016-10-31 07:26:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10643,7 +10643,7 @@ msgstr "Du kannst die Liste der Profile nach ihrer Rolle filtern. Benutze die Li
 
 #: wp-admin/users.php:429
 msgid "User deleted."
-msgstr "Profil gelöscht"
+msgstr "Profil gelöscht."
 
 #: wp-admin/users.php:43
 msgid "You can view all posts made by a user by clicking on the number under the Posts column."
@@ -10686,7 +10686,7 @@ msgstr "Andere Profile sind gelöscht worden."
 
 #: wp-admin/users.php:457
 msgid "User removed from this site."
-msgstr "Profil von diese Website entfernt."
+msgstr "Profil von dieser Website entfernt."
 
 #: wp-admin/users.php:460
 msgid "You can't remove the current user."
