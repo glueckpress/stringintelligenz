@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-01 07:14:06+0000\n"
+"PO-Revision-Date: 2016-11-01 07:30:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5322,7 +5322,7 @@ msgstr "Bekannschaft"
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1065
 msgid "friend"
-msgstr "Freund*in"
+msgstr "Freundin/Freund"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1068 wp-admin/includes/meta-boxes.php:1101
@@ -5348,12 +5348,12 @@ msgstr "beruflich"
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1084
 msgid "co-worker"
-msgstr "Mitarbeiter*in"
+msgstr "Mitarbeiterin/Mitarbeiter"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1087
 msgid "colleague"
-msgstr "Kolleg*in"
+msgstr "Kollegin/Kollege"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1092 wp-admin/includes/meta-boxes.php:1093
@@ -5363,12 +5363,12 @@ msgstr "Umfeld"
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1095
 msgid "co-resident"
-msgstr "Mitbewohner*in"
+msgstr "Mitbewohnerin/Mitbewohner"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1098
 msgid "neighbor"
-msgstr "Nachbar*in"
+msgstr "Nachbarin/Nachbar"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1106 wp-admin/includes/meta-boxes.php:1107
@@ -5398,7 +5398,7 @@ msgstr "Geschwister"
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1121
 msgid "spouse"
-msgstr "Partner*in"
+msgstr "Partnerin/Partner"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:1129 wp-admin/includes/meta-boxes.php:1130
