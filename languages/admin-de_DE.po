@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-31 07:26:22+0000\n"
+"PO-Revision-Date: 2016-11-01 07:01:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6373,13 +6373,13 @@ msgstr "Redaktion"
 #: wp-admin/includes/schema.php:640
 msgctxt "User role"
 msgid "Author"
-msgstr "Inhalte"
+msgstr "Beiträge"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:642
 msgctxt "User role"
 msgid "Contributor"
-msgstr "Beiträge"
+msgstr "Entwürfe"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:644
@@ -10414,11 +10414,11 @@ msgstr "Profile mit der Rolle „Mitglied“ können nur Kommentare lesen und ab
 
 #: wp-admin/user-new.php:197
 msgid "Contributors can write and manage their posts but not publish posts or upload media files."
-msgstr "Profile mit der Rolle „Beiträge“ können eigene Beiträge schreiben und bearbeiten, sie jedoch nicht veröffentlichen. Auch dürfen sie keine Dateien hochladen."
+msgstr "Profile mit der Rolle „Entwürfe“ können eigene Beiträge schreiben und bearbeiten, sie jedoch nicht veröffentlichen. Auch dürfen sie keine Dateien hochladen."
 
 #: wp-admin/user-new.php:198
 msgid "Authors can publish and manage their own posts, and are able to upload files."
-msgstr "Profile mit der Rolle „Inhalte“ können ihre eigenen Beiträge veröffentlichen und verwalten, sowie Dateien hochladen."
+msgstr "Profile mit der Rolle „Beiträge“ können ihre eigenen Beiträge veröffentlichen und verwalten, sowie Dateien hochladen."
 
 #: wp-admin/user-new.php:199
 msgid "Editors can publish posts, manage posts as well as manage other people&#8217;s posts, etc."
