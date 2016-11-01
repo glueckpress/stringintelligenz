@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-10-31 07:09:59+0000\n"
+"PO-Revision-Date: 2016-11-01 07:11:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1585,7 +1585,7 @@ msgstr "Beschreibung"
 
 #: wp-includes/class-wp-editor.php:899 wp-includes/theme-compat/sidebar.php:27
 msgid "Author"
-msgstr "Autor*in"
+msgstr "Autorin/Autor"
 
 #: wp-includes/class-wp-editor.php:902
 msgid "Insert/edit image"
@@ -2649,7 +2649,7 @@ msgstr "Du bist mit deiner Rolle leider nicht berechtigt, Beiträge zu erstellen
 #: wp-includes/class-wp-xmlrpc-server.php:1351
 #: wp-includes/class-wp-xmlrpc-server.php:4922
 msgid "Invalid author ID."
-msgstr "Ungültige ID für Autor*in."
+msgstr "Ungültige ID für Autorin/Autor."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1397
 #: wp-includes/class-wp-xmlrpc-server.php:3932
@@ -3052,11 +3052,11 @@ msgstr "Breite für mittlere Bildgröße"
 
 #: wp-includes/class-wp-xmlrpc-server.php:5251
 msgid "Sorry, you are not allowed to change the post author as this user."
-msgstr "Du bist mit deiner Rolle leider nicht berechtigt, Autor*innen von Beiträgen zu ändern."
+msgstr "Du bist mit deiner Rolle leider nicht berechtigt, Autorinnen/Autoren von Beiträgen zu ändern."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5256
 msgid "Sorry, you are not allowed to change the page author as this user."
-msgstr "Du bist mit deiner Rolle leider nicht berechtigt, Autor*innen von Seiten zu ändern."
+msgstr "Du bist mit deiner Rolle leider nicht berechtigt, Autorinnen/Autoren von Seiten zu ändern."
 
 #: wp-includes/class-wp-xmlrpc-server.php:528
 msgid "Medium size image height"
@@ -4115,7 +4115,7 @@ msgstr "Schlagwort: %s"
 
 #: wp-includes/general-template.php:1460
 msgid "Author: %s"
-msgstr "Autor*in: %s"
+msgstr "Autorin/Autor: %s"
 
 #: wp-includes/general-template.php:1462
 msgid "Year: %s"
@@ -5671,7 +5671,7 @@ msgstr "Neuer Kommentar zum Beitrag „%s“"
 #. translators: 1: comment author, 2: author IP, 3: author domain
 #: wp-includes/pluggable.php:1448 wp-includes/pluggable.php:1596
 msgid "Author: %1$s (IP: %2$s, %3$s)"
-msgstr "Autor*in: %1$s (IP: %2$s, %3$s)"
+msgstr "Autorin/Autor: %1$s (IP: %2$s, %3$s)"
 
 #: wp-includes/pluggable.php:1449 wp-includes/pluggable.php:1597
 #: wp-includes/pluggable.php:1724
@@ -7833,7 +7833,7 @@ msgstr "Beitrags-Inhalt anzeigen?"
 
 #: wp-includes/widgets.php:1370
 msgid "Display item author if available?"
-msgstr "Beitrags-Autor*in anzeigen, wenn verfügbar?"
+msgstr "Autorin/Autor anzeigen, wenn verfügbar?"
 
 #: wp-includes/widgets.php:1373
 msgid "Display item date?"
@@ -8413,7 +8413,7 @@ msgstr "<strong>Du hast WordPress erfolgreich aktualisiert!</strong> Bitte melde
 
 #: wp-mail.php:121
 msgid "Author is %s"
-msgstr "Autor*in ist %s"
+msgstr "Autorin/Autor ist %s"
 
 #: wp-mail.php:15
 msgid "This action has been disabled by the administrator."
@@ -8421,7 +8421,7 @@ msgstr "Diese Aktion wurde von der Administration deaktiviert."
 
 #: wp-mail.php:225
 msgid "Author:"
-msgstr "Autor*in:"
+msgstr "Autorin/Autor:"
 
 #: wp-mail.php:226
 msgid "Posted title:"

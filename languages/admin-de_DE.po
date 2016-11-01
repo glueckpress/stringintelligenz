@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-01 07:01:34+0000\n"
+"PO-Revision-Date: 2016-11-01 07:14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -893,7 +893,7 @@ msgstr "Ein roter Balken auf der linken Seite bedeutet, dass der Kommentar auf d
 
 #: wp-admin/edit-comments.php:156
 msgid "In the <strong>Author</strong> column, in addition to the author&#8217;s name, email address, and blog URL, the commenter&#8217;s IP address is shown. Clicking on this link will show you all the comments made from this IP address."
-msgstr "In der Spalte <strong>Autor*in</strong> werden Daten wie der Name, E-Mail-Adresse, Seiten-Adresse und IP-Adresse der Kommentar-Autorin bzw. des Kommentar-Autors angezeigt. Klickst du auf die IP-Adresse, siehst du alle Kommentare, die mit dieser IP-Adresse abgegeben wurden."
+msgstr "In der Spalte <strong>Autorin/Autor</strong> werden Daten wie der Name, E-Mail-Adresse, Seiten-Adresse und IP-Adresse der Kommentar-Autorin bzw. des Kommentar-Autors angezeigt. Klickst du auf die IP-Adresse, siehst du alle Kommentare, die mit dieser IP-Adresse abgegeben wurden."
 
 #: wp-admin/edit-comments.php:157
 msgid "In the <strong>Comment</strong> column, hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment."
@@ -1122,7 +1122,7 @@ msgstr "Titelform"
 
 #: wp-admin/edit-form-advanced.php:356
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop. You can also minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
-msgstr "Das Titel-Feld und das große Feld für den Inhalt sind fest positioniert, aber alle anderen Boxen können per Drag &#38; Drop neu angeordnet werden. Du kannst diese auch minimieren oder maximieren durch Klicken auf die Titelleiste jeder Box. Nutze &#8222;Ansicht anpassen&#8220;, um weitere Boxen zu aktivieren oder zu deaktivieren (Ausschnitt, Trackbacks senden, eigene Felder, Diskussionen, Slug und Autor*in), oder wähle das 1- oder 2-Spalten Layout für diese Ansicht."
+msgstr "Das Titel-Feld und das große Feld für den Inhalt sind fest positioniert, aber alle anderen Boxen können per Drag &#38; Drop neu angeordnet werden. Du kannst diese auch minimieren oder maximieren durch Klicken auf die Titelleiste jeder Box. Nutze &#8222;Ansicht anpassen&#8220;, um weitere Boxen zu aktivieren oder zu deaktivieren (Ausschnitt, Trackbacks senden, eigene Felder, Diskussionen, Slug und Autorin/Autor), oder wähle das 1- oder 2-Spalten Layout für diese Ansicht."
 
 #: wp-admin/edit-form-advanced.php:360
 msgid "Customizing This Display"
@@ -1612,7 +1612,7 @@ msgstr "Mit Hilfe des Tab &#8222;Ansicht anpassen&#8220; kannst du dir Beiträge
 
 #: wp-admin/edit.php:199
 msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
-msgstr "Es ist auch möglich, nur die Beiträge einer bestimmten Kategorie, eines bestimmten Monats oder bestimmter Autor*innen anzeigen zu lassen. Nutze hierfür die Dropdown-Auswahlmenüs über der Beitragsliste und wähle dann &#8222;Auswahl einschränken&#8220; oder klicke direkt auf eine*n Autor*in oder Kategorie-Namen innerhalb der Liste."
+msgstr "Es ist auch möglich, nur die Beiträge einer bestimmten Kategorie, eines bestimmten Monats oder bestimmter Autorinnen/Autoren anzeigen zu lassen. Nutze hierfür die Dropdown-Auswahlmenüs über der Beitragsliste und wähle dann &#8222;Auswahl einschränken&#8220; oder klicke direkt auf eine Autorin, einen Autor oder einen Kategorie-Namen innerhalb der Liste."
 
 #: wp-admin/edit.php:204 wp-admin/upload.php:194
 msgid "Available Actions"
@@ -1648,7 +1648,7 @@ msgstr "Es können auch mehrere Beiträge auf einmal bearbeitet werden. Markiere
 
 #: wp-admin/edit.php:219
 msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
-msgstr "Bei der Massenbearbeitung von Beiträgen kannst du für mehrere Beiträge auf einmal zum Beispiel Kategoriezuordnungen, Schlagwörter, Autor*in, Veröffentlichungsstatus und mehr verändern. Um einen Beitrag nachträglich von der Massenbearbeitung zu entfernen, klicke auf das &#215;-Symbol neben dem Titel."
+msgstr "Bei der Massenbearbeitung von Beiträgen kannst du für mehrere Beiträge auf einmal zum Beispiel Kategoriezuordnungen, Schlagwörter, Autorin/Autor, Veröffentlichungsstatus und mehr verändern. Um einen Beitrag nachträglich von der Massenbearbeitung zu entfernen, klicke auf das &#215;-Symbol neben dem Titel."
 
 #: wp-admin/edit.php:224
 msgid "<a href=\"https://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentation on Managing Posts</a>"
@@ -1789,7 +1789,7 @@ msgstr "Alle"
 
 #: wp-admin/export.php:177 wp-admin/export.php:219
 msgid "Authors:"
-msgstr "Autor*innen:"
+msgstr "Autorinnen/Autoren:"
 
 #: wp-admin/export.php:191 wp-admin/export.php:233 wp-admin/export.php:265
 msgid "Date range:"
@@ -1819,7 +1819,7 @@ msgstr "Export-Datei herunterladen"
 
 #: wp-admin/export.php:48
 msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status."
-msgstr "Die Inhalte deiner Website können in eine Datei exportiert werden, um diese wieder in eine andere Installation zu importieren. Das Format der Export-Datei ist ein spezielles XML-Format, auch WXR (WordPress eXtended Rss) genannt. Beim Export können Beiträge, Seiten, Kommentare, eigene Inhaltstypen, Kategorien und Schlagwörter inkludiert werden. Du kannst die Inhalte der WXR-Datei vorab auch filtern, indem du die Export-Daten z.B. auf Seiten, Beiträge und/oder Medien beschränkst, und diese wiederum per Kategorie, Autor*in, Zeitraum oder Status weiter eingrenzt."
+msgstr "Die Inhalte deiner Website können in eine Datei exportiert werden, um diese wieder in eine andere Installation zu importieren. Das Format der Export-Datei ist ein spezielles XML-Format, auch WXR (WordPress eXtended Rss) genannt. Beim Export können Beiträge, Seiten, Kommentare, eigene Inhaltstypen, Kategorien und Schlagwörter inkludiert werden. Du kannst die Inhalte der WXR-Datei vorab auch filtern, indem du die Export-Daten z.B. auf Seiten, Beiträge und/oder Medien beschränkst, und diese wiederum per Kategorie, Autorin/Autor, Zeitraum oder Status weiter eingrenzt."
 
 #: wp-admin/export.php:49
 msgid "Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format."
@@ -4557,7 +4557,7 @@ msgstr "Hauptindex-Template"
 
 #: wp-admin/includes/file.php:27
 msgid "Author Template"
-msgstr "Autor*in-Template"
+msgstr "Autorin/Autor-Template"
 
 #: wp-admin/includes/file.php:28
 msgid "Taxonomy Template"
@@ -6604,7 +6604,7 @@ msgstr "Stichwortsuche"
 
 #: wp-admin/includes/theme-install.php:77
 msgid "Search by author"
-msgstr "Suche nach Autor*in"
+msgstr "Suche nach Autorin/Autor"
 
 #: wp-admin/includes/theme-install.php:80
 msgid "Search by tag"
@@ -8941,7 +8941,7 @@ msgstr "Plugins hinzufügen"
 
 #: wp-admin/plugin-install.php:90
 msgid "If you know what you&#8217;re looking for, Search is your best bet. The Search screen has options to search the WordPress Plugin Directory for a particular Term, Author, or Tag. You can also search the directory by selecting popular tags. Tags in larger type mean more plugins have been labeled with that tag."
-msgstr "Wenn du weißt, wonach du suchst, dann nutze die Suchfunktion. Damit kannst du im offiziellen WordPress.org Plugin-Verzeichnis nach bestimmten Begriffen, Autor*innen oder (englischen) Schlagwörtern suchen. Du kannst dich auch von der Liste populärer Schlagwörter inspirieren lassen. Die Schlagwörter erscheinen umso größer, je häufiger sie vergeben wurden."
+msgstr "Wenn du weißt, wonach du suchst, dann nutze die Suchfunktion. Damit kannst du im offiziellen WordPress.org Plugin-Verzeichnis nach bestimmten Begriffen, Autorinnen/Autoren oder (englischen) Schlagwörtern suchen. Du kannst dich auch von der Liste populärer Schlagwörter inspirieren lassen. Die Schlagwörter erscheinen umso größer, je häufiger sie vergeben wurden."
 
 #: wp-admin/plugin-install.php:91
 msgid "If you just want to get an idea of what&#8217;s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly."
