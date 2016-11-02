@@ -74,8 +74,15 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 = 0.2.0 =
 * [Profilname anstatt Zugangsname](https://github.com/glueckpress/stringintelligenz/issues/8)
 * [neutrale Rollenbezeichnungen](https://github.com/glueckpress/stringintelligenz/issues/17)
+* Beidnennung mit Schrägstrich statt Gender-Star
 * [geringfügige Fehlerkorrekturen](https://github.com/glueckpress/stringintelligenz/issues/16)
 * Projekt-Ziel „WordPress 4.7“ entfernt
 
 = 0.1.0 =
 * … und jedem Anfang wohnt ein Zauber inne.
+
+
+== Upgrade Notice ==
+
+= 0.2.0 =
+We removed gender stars (“Autor*in”) in favor of displaying both genders with a slash (“Autorin/Autor”). “Zugangsname” got re-named to “Profilname”, and roles got functional instead of personal names. Got feedback? Join the [forum](https://wordpress.org/support/plugin/stringintelligenz/)!
