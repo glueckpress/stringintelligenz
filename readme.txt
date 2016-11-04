@@ -85,4 +85,4 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 == Upgrade Notice ==
 
 = 0.2.0 =
-We removed gender stars (“Autor*in”) in favor of displaying both genders with a slash (“Autorin/Autor”). “Zugangsname” got re-named to “Profilname”, and roles got functional instead of personal names. Got feedback? Join the [forum](https://wordpress.org/support/plugin/stringintelligenz/)!
+We removed gender stars (“Autor*in”) in favor of displaying female and male genders with a slash (“Autorin/Autor”). “Zugangsname” got re-named to “Profilname”, and roles got functional instead of personal names. Got feedback? Join the [forum](https://wordpress.org/support/plugin/stringintelligenz/)!
