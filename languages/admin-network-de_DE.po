@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-01 07:31:09+0000\n"
+"PO-Revision-Date: 2016-11-05 18:18:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -702,7 +702,7 @@ msgstr "Erster Kommentar von"
 
 #: wp-admin/network/settings.php:264
 msgid "The author of the first comment on a new site."
-msgstr "Namensangabe für den ersten Kommentars einer neuen Website."
+msgstr "Namensangabe für den ersten Kommentar einer neuen Website."
 
 #: wp-admin/network/settings.php:269
 msgid "First Comment Email"
@@ -710,7 +710,7 @@ msgstr "E-Mail-Adresse des ersten Kommentars"
 
 #: wp-admin/network/settings.php:273
 msgid "The email address of the first comment author on a new site."
-msgstr "Angabe der E-Mail-Adresse für den ersten Kommentars auf einer neuen Website."
+msgstr "Angabe der E-Mail-Adresse für den ersten Kommentar auf einer neuen Website."
 
 #: wp-admin/network/settings.php:278
 msgid "First Comment URL"
@@ -777,7 +777,7 @@ msgstr ""
 
 #: wp-admin/network/settings.php:34
 msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
-msgstr "Die Werte bei „Einstellungen für neue Website“ werden immer dann angewandt, wenn eine neue Website registriert wird. Dies umfasst die Willkommens-E-Mails, als auch den ersten automatisch angelegten Beitrag oder Kommentar."
+msgstr "Die Werte bei &#8222;Einstellungen für neue Website&#8220; werden immer dann angewandt, wenn eine neue Website registriert wird. Dies umfasst die Willkommens-E-Mails, als auch den ersten automatisch angelegten Beitrag oder Kommentar."
 
 #: wp-admin/network/settings.php:35
 msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."

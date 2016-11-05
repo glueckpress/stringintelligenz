@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.6.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-03 06:28:35+0000\n"
+"PO-Revision-Date: 2016-11-05 18:56:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +17,7 @@ msgstr "Hello Dolly"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wordpress.org/plugins/hello-dolly/"
-msgstr "http://wordpress.org/plugins/hello-dolly/"
+msgstr "https://de.wordpress.org/plugins/hello-dolly/"
 
 #. Description of the plugin/theme
 msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
@@ -29,7 +29,7 @@ msgstr "Matt Mullenweg"
 
 #. Author URI of the plugin/theme
 msgid "http://ma.tt/"
-msgstr "http://ma.tt/"
+msgstr "https://ma.tt/"
 
 #: wp-admin/about.php:102
 msgid "Editor Improvements"
@@ -100,7 +100,7 @@ msgstr "Übersetzungen auf Abruf"
 
 #: wp-admin/about.php:170
 msgid "WordPress will install and use the newest language packs for your plugins and themes as soon as they&#8217;re available from <a href=\"https://translate.wordpress.org/\">WordPress.org&#8217;s community of translators</a>."
-msgstr "WordPress installiert und verwendet die neuesten Sprachpakete für deine Plugins und Themes, sobald sie von den <a href=\"https://translate.wordpress.org/\">Übersetzern der WordPress-Community</a> bereitgestellt werden."
+msgstr "WordPress installiert und verwendet die neuesten Sprachpakete für deine Plugins und Themes, sobald sie vom <a href=\"https://translate.wordpress.org/\">Übersetzungsteam der WordPress-Community</a> bereitgestellt werden."
 
 #: wp-admin/about.php:173
 msgid "JavaScript Library Updates"
@@ -530,7 +530,7 @@ msgstr "Willkommen bei WordPress %s"
 #. translators: 1: https://wordpress.org/about/, 2: https://make.wordpress.org/
 #: wp-admin/credits.php:40
 msgid "WordPress is created by a <a href=\"%1$s\">worldwide team</a> of passionate individuals. <a href=\"%2$s\">Get involved in WordPress</a>."
-msgstr "WordPress wird von einem <a href=\"%1$s\">weltweiten Team</a> passionierter Menschen entwickelt. <a href=\"%2$s\">Bring dich in WordPress ein</a>."
+msgstr "WordPress wird von einem <a href=\"%1$s\">weltweiten Team</a> begeisterter Menschen entwickelt. <a href=\"%2$s\">Bring dich in WordPress ein</a>."
 
 #: wp-admin/credits.php:42 wp-admin/credits.php:104
 msgid "https://make.wordpress.org/"
@@ -538,7 +538,7 @@ msgstr "https://make.wordpress.org/"
 
 #: wp-admin/credits.php:50
 msgid "WordPress is created by a worldwide team of passionate individuals."
-msgstr "WordPress wird von einem weltweiten Team passionierter Menschen entwickelt."
+msgstr "WordPress wird von einem weltweiten Team begeisterter Menschen entwickelt."
 
 #: wp-admin/credits.php:56
 msgctxt "Translate this to be the equivalent of English Translators in your language for the credits page Translators section"
@@ -2704,7 +2704,7 @@ msgid ""
 "Thanks! -- The WordPress Team"
 msgstr ""
 "BETA-TESTING AKTIV?\n"
-"===================\n"
+"============\n"
 "\n"
 "Diese Mail zur Fehlerbehebung wird an dich verschickt, wenn du WordPress in einer Entwicklungsversion verwendest.\n"
 "\n"
@@ -3404,7 +3404,7 @@ msgstr[1] "Alle <span class=\"count\">(%s)</span>"
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Aktiviert <span class=\"count\">(%s)</span>"
-msgstr[1] "Aktivierte <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktiviert <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:419
 msgid "Recently Active <span class=\"count\">(%s)</span>"
@@ -3416,7 +3416,7 @@ msgstr[1] "Kürzlich aktiv <span class=\"count\">(%s)</span>"
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "Inaktiv <span class=\"count\">(%s)</span>"
-msgstr[1] "Inaktive <span class=\"count\">(%s)</span>"
+msgstr[1] "Inaktiv <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:425
 msgid "Must-Use <span class=\"count\">(%s)</span>"
@@ -3434,7 +3434,7 @@ msgstr[1] "DropIns <span class=\"count\">(%s)</span>"
 msgid "Update Available <span class=\"count\">(%s)</span>"
 msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
-msgstr[1] "Aktualisierungen verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Verfügbare Aktualisierungen <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:461
 #: wp-admin/includes/class-wp-plugins-list-table.php:603
@@ -4469,11 +4469,11 @@ msgstr "Bitte gib die FTP-Serverdaten oder SSH-Verbindungsdaten ein, um fortzufa
 
 #: wp-admin/includes/file.php:1193
 msgid "FTP/SSH Username"
-msgstr "FTP/SSH Zugangsname"
+msgstr "FTP/SSH-Zugangsname"
 
 #: wp-admin/includes/file.php:1194
 msgid "FTP/SSH Password"
-msgstr "FTP/SSH Passwort"
+msgstr "FTP/SSH-Passwort"
 
 #: wp-admin/includes/file.php:1196
 msgid "Please enter your FTP credentials to proceed."
@@ -7864,7 +7864,7 @@ msgstr "Menü Anordnung aktualisiert."
 
 #: wp-admin/nav-menus.php:517
 msgid "Your theme does not natively support menus, but you can use them in sidebars by adding a &#8220;Custom Menu&#8221; widget on the <a href=\"%s\">Widgets</a> screen."
-msgstr "Dein Theme unterstützt von Haus aus keine Menüs, aber du kannst sie in Seitenleisten verwenden, indem du ein Widget für &#8222;eigene Menüs&#8220; im <a href=\"%s\">Widgets Menü</a> hinzufügst."
+msgstr "Dein Theme unterstützt keine Menüs, aber du kannst sie in Seitenleisten verwenden, indem du ein Widget für &#8222;eigene Menüs&#8220; im <a href=\"%s\">Widgets-Bereich</a> hinzufügst."
 
 #: wp-admin/nav-menus.php:520
 msgid "This screen is used for managing your custom navigation menus."
@@ -7872,7 +7872,7 @@ msgstr "Hier kannst du deine eigenen Menüs erstellen, bearbeiten und verwalten.
 
 #: wp-admin/nav-menus.php:521
 msgid "Menus can be displayed in locations defined by your theme, even used in sidebars by adding a &#8220;Custom Menu&#8221; widget on the <a href=\"%1$s\">Widgets</a> screen. If your theme does not support the custom menus feature (the default themes, %2$s and %3$s, do), you can learn about adding this support by following the Documentation link to the side."
-msgstr "Menüs können in deinem Theme an vordefinierten Stellen angezeigt oder sogar in Seitenleisten verwendet werden, indem du ein Widget für ein &#8222;Individuelles Menü&#8220; im <a href=\"%1$s\">Widgets Menü</a> hinzufügst. Wenn dein Theme keine eigenen Menüs unterstützt (die Standard-Themes %2$s und %3$s tun dies), kannst du über den Link zur Dokumentation erfahren, wie du eine solche Unterstützung hinzufügen kannst."
+msgstr "Menüs können in deinem Theme an vordefinierten Stellen angezeigt oder sogar in Seitenleisten verwendet werden, indem du ein Widget für ein &#8222;Individuelles Menü&#8220; im <a href=\"%1$s\">Widgets-Bereich</a> hinzufügst. Wenn dein Theme keine eigenen Menüs unterstützt (die Standard-Themes %2$s und %3$s tun dies), kannst du über den Link zur Dokumentation erfahren, wie du eine solche Unterstützung hinzufügen kannst."
 
 #: wp-admin/nav-menus.php:522 wp-admin/themes.php:73
 msgid "From this screen you can:"
@@ -8385,7 +8385,7 @@ msgstr "E-Mail-Adresse"
 
 #: wp-admin/options-general.php:83
 msgid "This address is used for admin purposes, like new user notification."
-msgstr "Diese Adresse wird nur zu administrativen Zwecken verwendet."
+msgstr "Diese Adresse wird für administrative Zwecke verwendet, wie z.B. die Benachrichtigung über neue Registrierungen."
 
 #: wp-admin/options-general.php:86 wp-admin/options-general.php:87
 msgid "Membership"
@@ -9216,7 +9216,7 @@ msgstr "Weitere Hilfe benötigt? <a href=\"%s\">Hier entlang</a>."
 
 #: wp-admin/setup-config.php:174
 msgid "In all likelihood, these items were supplied to you by your Web Host. If you don&#8217;t have this information, then you will need to contact them before you can continue. If you&#8217;re all ready&hellip;"
-msgstr "Wahrscheinlich kannst du diese Informationen in deinem Webhosting-Konto finden. Wenn du sie nicht parat hast, kontaktiere die Firma, bei der deine Website gehostet wird, bevor du weitermachst."
+msgstr "Wahrscheinlich kannst du diese Informationen in deinem Webhosting-Konto finden. Wenn du sie nicht parat hast, kontaktiere dein Webhosting, bevor du weitermachst."
 
 #: wp-admin/setup-config.php:176
 msgid "Let&#8217;s go!"
@@ -9505,7 +9505,7 @@ msgstr "https://de.wordpress.org/themes/"
 
 #: wp-admin/theme-install.php:82
 msgid "You can Search for themes by keyword, author, or tag, or can get more specific and search by criteria listed in the feature filter."
-msgstr "Bei der Suche nach Themes kannst du Schlüsselwörter, Herkunftsnamen oder Schlagwörter verwenden oder mit den Kriterien, die im Eigenschaften-Filter aufgeführt werden, noch gezielter suchen."
+msgstr "Bei der Suche nach Themes kannst du Stichwörter, Autorinnen/Autoren oder Schlagwörter verwenden oder mit den Kriterien, die im Eigenschaften-Filter aufgeführt werden, noch gezielter suchen."
 
 #: wp-admin/theme-install.php:83
 msgid "Alternately, you can browse the themes that are Featured, Popular, or Latest. When you find a theme you like, you can preview it or install it."
@@ -9688,11 +9688,11 @@ msgstr "Press This ist ein kleines Werkzeug, mit dem du Dinge aus dem Web aufgre
 
 #: wp-admin/tools.php:42
 msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your site."
-msgstr "Benutze Press This, um Text, Bilder und Videos aus jeder beliebigen Website einzubinden. Dann kannst du es einfach mit Press This bearbeiten und noch etwas hinzufügen, bevor du es speicherst oder als Beitrag veröffentlichst."
+msgstr "Benutze Press This, um Text, Bilder und Videos aus jeder beliebigen Website einzubinden. Damit kannst du diese Inhalte einfach mit Press This bearbeiten und noch etwas hinzufügen, bevor du speicherst oder als Beitrag veröffentlichst."
 
 #: wp-admin/tools.php:46
 msgid "Install Press This"
-msgstr "Installiere Press This"
+msgstr "Press This installieren"
 
 #: wp-admin/tools.php:47
 msgid "Bookmarklet"
@@ -9756,9 +9756,7 @@ msgstr "Künftige Sicherheitsupdates werden automatisch durchgeführt."
 
 #: wp-admin/update-core.php:181
 msgid "<strong>Important:</strong> before updating, please <a href=\"https://codex.wordpress.org/WordPress_Backups\">back up your database and files</a>. For help with updates, visit the <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress</a> Codex page."
-msgstr ""
-"<strong>Wichtig</strong>: Bevor du das Update durchführst, lege unbedingt eine Sicherheitskopie deiner Datenbank und der Dateien an.\n"
-"Eine Anleitung findest du im <a href=\"https://codex.wordpress.org/WordPress_Backups\">offiziellen Codex (engl.)</a>. Weitere Informationen zum Aktualisieren von WordPress erhältst du auf der Seite <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress (engl.)</a>."
+msgstr "<strong>Wichtig:</strong> Bevor du das Update durchführst, lege unbedingt eine Sicherheitskopie deiner Datenbank und Dateien an. Eine Anleitung dazu findest du im <a href=\"https://codex.wordpress.org/WordPress_Backups\">offiziellen Codex (engl.)</a>. Weitere Informationen zum Update von WordPress erhältst du auf der Seite <a href=\"https://codex.wordpress.org/Updating_WordPress\">Updating WordPress (engl.)</a>."
 
 #: wp-admin/update-core.php:185
 msgid "An updated version of WordPress is available."
@@ -9844,7 +9842,7 @@ msgstr "Alle Übersetzungen sind auf dem neuesten Stand."
 
 #: wp-admin/update-core.php:422
 msgid "New translations are available."
-msgstr "Es stehen neue Übersetzungen zur Verfügung."
+msgstr "Es sind neue Übersetzungen vorhanden."
 
 #: wp-admin/update-core.php:461
 msgid "Update WordPress"
@@ -9856,7 +9854,7 @@ msgstr "WordPress-Aktualisierungen"
 
 #: wp-admin/update-core.php:552
 msgid "On this screen, you can update to the latest version of WordPress, as well as update your themes, plugins, and translations from the WordPress.org repositories."
-msgstr "In dieser Ansicht kannst du WordPress auf die neueste Version aktualisiere. Deine Themes, Plugins und Übersetzung kannst du hier ebenfalls auf den neuesten Stand bringen."
+msgstr "In dieser Ansicht kannst du WordPress auf die neueste Version aktualisieren. Deine Themes, Plugins und Übersetzungen kannst du hier ebenfalls auf den neuesten Stand bringen."
 
 #: wp-admin/update-core.php:553
 msgid "If an update is available, you&#8127;ll see a notification appear in the Toolbar and navigation menu."
@@ -10026,8 +10024,8 @@ msgstr "Du kannst die Liste nach Dateiart/-status oder Datum eingrenzen, indem d
 #: wp-admin/upload.php:196
 msgid "Hovering over a row reveals action links: Edit, Delete Permanently, and View. Clicking Edit or on the media file&#8217;s name displays a simple screen to edit that individual file&#8217;s metadata. Clicking Delete Permanently will delete the file from the media library (as well as from any posts to which it is currently attached). View will take you to the display page for that file."
 msgstr ""
-"Bei Mauszeigerkontakt einer Datei in der Liste werden zusätzliche Optionen angezeigt: Bearbeiten, Unwiderruflich löschen und Ansehen.\n"
-"Beim Klick auf „Bearbeiten“ werden die Metadaten der Datei angezeigt und können auch bearbeitet werden. Ein Klick auf „Unwiderruflich löschen“, löscht eine Datei aus der Mediathek und allen Beiträgen, in der sie verwendet wurde. „Ansehen“ öffnet eine Seite auf welcher die Datei angezeigt wird."
+"Bei Mauszeigerkontakt einer Datei in der Liste werden zusätzliche Optionen angezeigt: Bearbeiten, Unwiderruflich löschen und Anschauen.\n"
+"Beim Klick auf „Bearbeiten“ werden die Metadaten der Datei angezeigt und können auch bearbeitet werden. Ein Klick auf „Unwiderruflich löschen“, löscht eine Datei aus der Mediathek und allen Beiträgen, in der sie verwendet wurde. „Anschauen“ öffnet eine Seite, auf welcher die Datei angezeigt wird."
 
 #: wp-admin/upload.php:200
 msgid "Attaching Files"
@@ -10035,7 +10033,7 @@ msgstr "Dateien verknüpfen"
 
 #: wp-admin/upload.php:202
 msgid "If a media file has not been attached to any content, you will see that in the Uploaded To column, and can click on Attach to launch a small popup that will allow you to search for existing content and attach the file."
-msgstr "Falls eine Datei in keinem Beitrag oder Seite verwendet wird, so wird dies in der Spalte &#8222;Hochgeladen zu&#8220; kenntlich gemacht. Mit einem Klick auf &#8222;Verknüpfen&#8220; kannst du Beiträge oder Seiten suchen, mit denen du die Datei verknüpfen möchtest."
+msgstr "Falls eine Datei in keinem Beitrag oder Seite verwendet wird, so wird dies in der Spalte „Hochgeladen zu“ kenntlich gemacht. Mit einem Klick auf „Verknüpfen“ kannst du Beiträge oder Seiten suchen, mit denen du die Datei verknüpfen möchtest."
 
 #: wp-admin/upload.php:212
 msgid "Filter media items list"
@@ -10110,7 +10108,7 @@ msgstr "Fehler beim Speichern der Mediendatei."
 
 #: wp-admin/upload.php:50
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first."
-msgstr "Alle Dateien, die du hochgeladen hast, werden in der Mediathek aufgelistet, die zuletzt hochgeladenen zuoberst. "
+msgstr "Alle Dateien, die du hochgeladen hast, werden in der Mediathek aufgelistet, die zuletzt hochgeladenen zuoberst."
 
 #: wp-admin/upload.php:51 wp-admin/upload.php:190
 msgid "You can view your media in a simple visual grid or a list with columns. Switch between these views using the icons to the left above the media."
@@ -10204,7 +10202,7 @@ msgstr "&mdash; Keine Rolle für diese Website &mdash;"
 
 #: wp-admin/user-edit.php:328
 msgid "Super Admin"
-msgstr "Super-Administration"
+msgstr "Netzwerk-Administration"
 
 #: wp-admin/user-edit.php:331
 msgid "Grant this user super admin privileges for the Network."
@@ -10394,7 +10392,7 @@ msgstr "Neue Profile bekommen automatisch ein Passwort zugewiesen, welches sie n
 
 #: wp-admin/user-new.php:180
 msgid "By default, new users will receive an email letting them know they&#8217;ve been added as a user for your site. This email will also contain a password reset link. Uncheck the box if you don&#8217;t want to send the new user a welcome email."
-msgstr "Neue Profile erhalten standardmäßig eine E-Mail, die den betreffenden Personen mitteilt, dass für sie ein Profil auf deiner Website angelegt wurden. Diese E-Mail enthält auch einen Link zum Zurücksetzen des Passworts. Wähle diese Option ab, wenn du nicht willst, dass solch eine Begrüßung per E-Mail verschickt wird."
+msgstr "Neue Profile erhalten standardmäßig eine E-Mail, die den betreffenden Personen mitteilt, dass für sie ein Profil auf deiner Website angelegt wurden. Diese E-Mail enthält auch einen Link zum Zurücksetzen des Passworts. Wähle diese Option ab, wenn du keine E-Mail zur Begrüßung senden möchtest."
 
 #: wp-admin/user-new.php:183
 msgid "Remember to click the Add New User button at the bottom of this screen when you are finished."
@@ -10589,7 +10587,7 @@ msgstr "Du kannst keine Profile entfernen."
 
 #: wp-admin/users.php:32
 msgid "This screen lists all the existing users for your site. Each user has one of five defined roles as set by the site admin: Site Administrator, Editor, Author, Contributor, or Subscriber. Users with roles other than Administrator will see fewer options in the dashboard navigation when they are logged in, based on their role."
-msgstr "Diese Übersichtsseite zeigt alle Profile deiner Website an. Jedes Profil hat eine von fünf vordefinierten Rollen, welche durch eine zur Administration berechtigte Person vergeben werden können: Administration, Redaktion, Inhalte, Beiträge, Mitglieder. Für Profile, die nicht die Rolle „Administration“ haben, werden je nach Rolle nicht alle Einstellungen, Optionen etc. angezeigt."
+msgstr "Diese Übersichtsseite zeigt alle Profile deiner Website an. Jedes Profil hat eine von fünf vordefinierten Rollen, welche durch eine zur Administration berechtigte Person vergeben werden können: Administration, Redaktion, Inhalte, Entwürfe, Mitglieder. Für Profile, die nicht die Rolle „Administration“ haben, werden je nach Rolle nicht alle Einstellungen, Optionen etc. angezeigt."
 
 #: wp-admin/users.php:33
 msgid "To add a new user for your site, click the Add New button at the top of the screen or Add New in the Users menu section."
