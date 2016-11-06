@@ -8,7 +8,7 @@ Stringintelligenz…
 
 - …&#160;eliminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
 - …&#160;sorgt für alternative, geschlechterneutrale Formulierungen, wo dies möglich ist;
-- …&#160;verwendet Formulierungen mit Gender-Star, wo alternative neutrale Formulierungen nicht sinnvoll sind.
+- …&#160;verwendet ~~Formulierungen mit Gender-Star~~ die Beidnennung mit Schrägstrich, wo alternative neutrale Formulierungen nicht sinnvoll sind.
 
 ## Kontext
 * _[Wieso das Ganze?](/CONTEXT.md)_
