@@ -45,7 +45,8 @@ No, this plugin only targets WordPress core. German translations of other plugin
 
 = Does this plugin introduce “genderized” word endings? =
 
-In a few places, yes. We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” can be found mostly on the word `Autor*in`. We found it particularly hard to come up with an alternative so far. (The single-word string `Author` is [used widely across multiple contexts](https://wordpress.org/support/topic/author-ohne-kontext/) in WordPress.)
+We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” could be found in version 0.1.0, mostly on the word `Autor*in`. We found it particularly hard to come up with an alternative so far. (The single-word string `Author` is [used widely across multiple contexts](https://wordpress.org/support/topic/author-ohne-kontext/) in WordPress.)
+Currently, the plugin uses female and male gender with a slash: `Autorin/Autor`.
 
 = Can I use this plugin for client sites? =
 
