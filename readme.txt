@@ -2,8 +2,8 @@
 Contributors: glueckpress, elbmedien, tfrommen, kau-boy, benjaminbirkenhake
 Tags: german, l10n, translation
 Requires at least: 4.6
-Tested up to: 4.6
-Stable tag: 0.1.0
+Tested up to: 4.6.1
+Stable tag: 0.2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -76,6 +76,7 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 * [neutrale Rollenbezeichnungen](https://github.com/glueckpress/stringintelligenz/issues/17)
 * Beidnennung mit Schrägstrich statt Gender-Star
 * [geringfügige Fehlerkorrekturen](https://github.com/glueckpress/stringintelligenz/issues/16)
+* String-Update von WordPress 4.6.1
 * Projekt-Ziel „WordPress 4.7“ entfernt
 
 = 0.1.0 =
@@ -85,4 +86,4 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 == Upgrade Notice ==
 
 = 0.2.0 =
-We removed gender stars (“Autor*in”) in favor of displaying female and male genders with a slash (“Autorin/Autor”). “Zugangsname” got re-named to “Profilname”, and roles got functional instead of personal names. Got feedback? Join the [forum](https://wordpress.org/support/plugin/stringintelligenz/)!
+We removed gender stars (“Autor*in”) in favor of displaying female and male genders with a slash (“Autorin/Autor”). “Zugangsname” got re-named to “Profilname”, and roles got functional instead of personal names. Got feedback? Tell us in the [forum](https://wordpress.org/support/plugin/stringintelligenz/)!
