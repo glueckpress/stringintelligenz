@@ -51,6 +51,10 @@ Absolutely! We’d love to hear feedback from people who use WordPress, but don�
 
 At least until its general goal of inclusive language in WordPress core is reflected by default German language packs.
 
+= I dig the code, who wrote this? =
+
+After this plugin had started out as a fork of [Bernhard Kau’s](https://profiles.wordpress.org/kau-boy/) [Backend Localization](https://wordpress.org/plugins/kau-boys-backend-localization/) plugin, [Thorsten Frommen](https://profiles.wordpress.org/tfrommen/) has written the current OOP version.
+
 = How can I contribute? =
 
 The easiest way for you to contribute would be to just post your suggestions over in the [plugin forums](https://wordpress.org/support/plugin/stringintelligenz/#new-post). We monitor these forums closely and will definitely reply to any suggestions you make.
