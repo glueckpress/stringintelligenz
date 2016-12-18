@@ -1,30 +1,25 @@
 === Stringintelligenz ===
 Contributors: glueckpress, elbmedien, tfrommen, kau-boy, benjaminbirkenhake
 Tags: german, l10n, translation
-Requires at least: 4.6
-Tested up to: 4.6.1
-Stable tag: 0.2.0
+Requires at least: 4.7
+Tested up to: 4.7
+Stable tag: 0.2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Gender-sensitive language for WordPress in German
+Open language for WordPress in German
 
 == Description ==
 
-**Stringintelligenz** is a localization feature project that aims to bring gender-sensitive language to German locales in WordPress.
+**Stringintelligenz** is a localization feature project that aims to bring open language to German locales in WordPress.
 
-This plugin swaps the German language packs for WordPress core with a set of language files containing a gender-sensitive translation of WordPress.
+This plugin swaps the German language packs for WordPress core with a set of language files containing a gender-sensitive, inclusive translation of WordPress.
 
 The most prominent change you will see after activating **Stringintelligenz** (and only if German is your site language) is the admin menu item “Profile” instead of “Benutzer”. Happy exploring!
 
-> **Your feedback is appreciated!**
+> **New user language feature not yet supported**
 >
-> **Stringintelligenz** is a localization feature plugin. It aims to eventually merge its modified translations into German core language packs, thus making **gender-sensitive language a default for WordPress in German**. We highly appreciate your feedback!
->
-> * How do you like the modified translations? _(Bonus points for an educated opinion!)_
-> * Would you like to see any gender-related translations improved?
->
-> **Let us know via the [plugin forums](https://wordpress.org/support/plugin/stringintelligenz/#new-post)!**
+> The new user locale feature in WordPress 4.7 is not yet supported in version 0.2.1 of this plugin. In order to see any modifications, you will have to change your site locale. We aim to add support for user locales soon.
 
 == Installation ==
 
@@ -46,7 +41,7 @@ No, this plugin only targets WordPress core. German translations of other plugin
 = Does this plugin introduce “genderized” word endings? =
 
 We generally try to use alternative phrasing wherever possible instead. Word endings with a “gender star” could be found in version 0.1.0, mostly on the word `Autor*in`. We found it particularly hard to come up with an alternative so far. (The single-word string `Author` is [used widely across multiple contexts](https://wordpress.org/support/topic/author-ohne-kontext/) in WordPress.)
-Currently, the plugin uses female and male gender with a slash: `Autorin/Autor`.
+Currently, the plugin uses female and male gender with a slash: `Autor/-in`.
 
 = Can I use this plugin for client sites? =
 
@@ -54,11 +49,11 @@ Absolutely! We’d love to hear feedback from people who use WordPress, but don�
 
 = How long will this plugin be maintained? =
 
-At least until its translations are merged into the default German language packs for WordPress core.
+At least until its general goal of inclusive language in WordPress core is reflected by default German language packs.
 
 = How can I contribute? =
 
-Yay! :) The easiest way for you to contribute would be to just post your suggestions over in the [plugin forums](https://wordpress.org/support/plugin/stringintelligenz/#new-post). We monitor these forums closely and will definitely reply to any suggestions you make.
+The easiest way for you to contribute would be to just post your suggestions over in the [plugin forums](https://wordpress.org/support/plugin/stringintelligenz/#new-post). We monitor these forums closely and will definitely reply to any suggestions you make.
 
 Contributing strings directly can get a bit tricky technically, but if you’re up for it, just shoot Caspar (@glueckpress) a message via [WordPress Slack](https://make.wordpress.org/chat/) or [German WordPress Slack](https://dewp.slack.com/).
 
@@ -71,6 +66,10 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 
 
 == Changelog ==
+
+= 0.2.1 =
+* String-Update von WordPress 4.7
+* Beidnennung mit Schrägstrich im Singular gemäß Duden-Empfehlung verkürzt: `Autor/-in` anstatt `Autorin/Autor`
 
 = 0.2.0 =
 * [Profilname anstatt Zugangsname](https://github.com/glueckpress/stringintelligenz/issues/8)
@@ -87,4 +86,4 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 == Upgrade Notice ==
 
 = 0.2.0 =
-We removed gender stars (“Autor*in”) in favor of displaying female and male genders with a slash (“Autorin/Autor”). “Zugangsname” got re-named to “Profilname”, and roles got functional instead of personal names. Got feedback? Tell us in the [forum](https://wordpress.org/support/plugin/stringintelligenz/)!
+Beidnennung mit Schrägstrich („Autorin/Autor“) anstatt Gender-Sterne;  „Zugangsname“ heisst jetzt „Profilname“; funktionale Rollennamen. Feedback? Schreib’ uns im [Forum](https://wordpress.org/support/plugin/stringintelligenz/)!

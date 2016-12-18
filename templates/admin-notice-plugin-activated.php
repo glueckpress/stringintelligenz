@@ -11,7 +11,7 @@
 ?>
 <div style="max-width:64em;width:100%;">
 <h4>🙆💐🎉&#160;Tadaaa, Stringintelligenz ist an!</h4>
-<p>Sofern du Administrationsrechte hast, solltest du beispielsweise das Wort <em>„Profile“</em> anstatt <em>„Benutzer“</em> im Admin-Menü sehen. <em>„Benutzerrollen“</em> heissen jetzt einfach <em>„Rollen“</em>, und die Rollennamen verwenden funktionale Begriffe anstatt Personenbezeichnungen. Außerdem werden bei Personenbezeichnungen, wie zum Beispiel <em>„Autor“</em>, die weibliche und männliche Form nebeneinander genannt: <em>„Autorin/Autor“</em>.
+<p>Sofern du Administrationsrechte hast, solltest du beispielsweise das Wort <em>„Profile“</em> anstatt <em>„Benutzer“</em> im Admin-Menü sehen. <em>„Benutzerrollen“</em> heissen jetzt einfach <em>„Rollen“</em>, und die Rollennamen verwenden funktionale Begriffe anstatt Personenbezeichnungen. Außerdem werden bei Personenbezeichnungen, wie zum Beispiel <em>„Autor“</em>, die weibliche und männliche Form nebeneinander genannt: <em>„Autor/-in</em> oder <em>„Autorinnen/Autoren</em>.
 	<br>Schau dich einfach mal um!</p>
 <h4>💭💡📢&#160;Feedback?</h4>
 <p>Feedback und Verbesserungsvorschläge sind notwendig und willkommen!

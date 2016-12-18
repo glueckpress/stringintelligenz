@@ -1,14 +1,14 @@
 # Stringintelligenz
-Gender-sensitive Sprache für WordPress in Deutsch
+Offene Sprache für WordPress in Deutsch
 
-**Stringintelligenz** ist ein Feature-Plugin, um gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen. Ziel des Projekts ist die Übernahme einer gender-sensitiven Version in die offiziellen Sprachdateien für WordPress in Deutsch.
+**Stringintelligenz** ist ein Feature-Plugin, um offene, gender-sensitive Sprache in die deutschen WordPress-Übersetzungen zu bringen. Ziel des Projekts ist die Übernahme der überarbeiteten Formulierungen in die offiziellen Sprachdateien für WordPress in Deutsch.
 
 
 Stringintelligenz…
 
 - …&#160;eliminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
 - …&#160;sorgt für alternative, geschlechterneutrale Formulierungen, wo dies möglich ist;
-- …&#160;verwendet ~~Formulierungen mit Gender-Star~~ die Beidnennung mit Schrägstrich, wo alternative neutrale Formulierungen nicht sinnvoll sind.
+- …&#160;verwendet die Beidnennung mit Schrägstrich, wo alternative neutrale Formulierungen nicht sinnvoll sind.
 
 ## Kontext
 * _[Wieso das Ganze?](/CONTEXT.md)_
@@ -28,4 +28,4 @@ Das Plugin muss nicht konfiguriert werden und funktioniert in jeder WordPress-In
 ## Feedback
 Feedback und Verbesserungsvorschläge sind ausdrücklich erwünscht. **Schreib’ uns im [Plugin-Forum auf wordpress.org](https://wordpress.org/support/plugin/stringintelligenz/)** – und ja, es darf natürlich deutsch gesprochen werden.&#160;🙃
 
-🛠&#160;_Entwickler*innen: Pull Requests sind generell willkommen, wenngleich für Vorschläge zu Updates an den Sprachdateien nicht wirklich notwendig. Wenn ihr einen PR einreicht, eröffnet bitte zuvor ein Issue, das ihr in eurem PR referenziert._
+🛠&#160;_Entwickler/-innen: Pull Requests sind generell willkommen, wenngleich für Vorschläge zu Updates an den Sprachdateien nicht wirklich notwendig. Wenn ihr einen PR einreicht, eröffnet bitte zuvor ein Issue, das ihr in eurem PR referenziert._
