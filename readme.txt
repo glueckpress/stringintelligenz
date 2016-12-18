@@ -11,15 +11,11 @@ Open language for WordPress in German
 
 == Description ==
 
-**Stringintelligenz** is a localization feature project that aims to bring open language to German locales in WordPress.
+**Stringintelligenz** is a localization feature project that aims to bring inclusive language to German locales in WordPress.
 
-This plugin swaps the German language packs for WordPress core with a set of language files containing a gender-sensitive, inclusive translation of WordPress.
+This plugin swaps the German language packs for WordPress core with a set of language files containing a gender-sensitive translation of WordPress.
 
 The most prominent change you will see after activating **Stringintelligenz** (and only if German is your site language) is the admin menu item “Profile” instead of “Benutzer”. Happy exploring!
-
-> **New user language feature not yet supported**
->
-> The new user locale feature in WordPress 4.7 is not yet supported in version 0.2.1 of this plugin. In order to see any modifications, you will have to change your site locale. We aim to add support for user locales soon.
 
 == Installation ==
 
