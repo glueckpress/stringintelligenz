@@ -6,7 +6,7 @@ Offene Sprache für WordPress in Deutsch
 
 Stringintelligenz…
 
-- …&#160;eliminiert das generische Maskulinum aus der deutschen Übersetzung für WordPress Core;
+- …&#160;eliminiert das generische Maskulinum für Personenbezeichnungen aus der deutschen Übersetzung für WordPress Core;
 - …&#160;sorgt für alternative, geschlechterneutrale Formulierungen, wo dies möglich ist;
 - …&#160;verwendet die Beidnennung mit Schrägstrich, wo alternative neutrale Formulierungen nicht sinnvoll sind.
 
