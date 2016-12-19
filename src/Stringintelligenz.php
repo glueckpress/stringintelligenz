@@ -96,7 +96,7 @@ class Stringintelligenz {
 		) );
 
 		// Only for de_DE (informal) for now.
-		if ( 'de_DE' !== get_locale() ) {
+		if ( 'de_DE' !== $this->get_locale() ) {
 			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(
 				$this->templates_folder . '/admin-notice-locale-not-supported.php'
 			), 'render' ) );
@@ -134,5 +134,15 @@ class Stringintelligenz {
 			new StringintelligenzReadableTextDomainLoader()
 		);
 		add_filter( 'override_load_textdomain', array( $override, 'override' ), 10, 3 );
+	}
+
+	/**
+	 * Returns the (user) locale.
+	 *
+	 * @return string The (user) locale.
+	 */
+	private function get_locale() {
+
+		return (string) ( function_exists( 'get_user_locale' ) ? get_user_locale() : get_locale() );
 	}
 }
