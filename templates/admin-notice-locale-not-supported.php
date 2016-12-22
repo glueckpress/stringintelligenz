@@ -3,10 +3,11 @@
 	<?php
 	printf(
 		__(
-			'Switch to <strong>“Deutsch”</strong> in <a href="%s">Settings→General→Site&#160;Language</a> in order to enable gender-sensitive German in your WordPress admin interface.<br><em>(Quick check: As an administrator you should see the word “Profile” instead of “Benutzer” in your admin menu after you have activated Deutsch.)</em>',
+			'Switch to <strong>“Deutsch”</strong> at <a href="%1$s">Settings→General→Site&#160;Language</a> or at <a href="%2$s">Profile→Personal&#160;Options→Language</a> in order to enable inclusive German in your WordPress admin interface.<br><em>(Quick check: As an administrator you should see the word “Profile” instead of “Benutzer” in your admin menu after you have activated Deutsch.)</em>',
 			'stringintelligenz'
 		),
-		admin_url( 'options-general.php' )
+		admin_url( 'options-general.php' ),
+		admin_url( 'profile.php' )
 	);
 	?>
 </p>
