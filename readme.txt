@@ -3,7 +3,7 @@ Contributors: glueckpress, elbmedien, tfrommen, kau-boy, benjaminbirkenhake
 Tags: german, l10n, translation
 Requires at least: 4.7
 Tested up to: 4.7
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,7 +15,7 @@ Open language for WordPress in German
 
 This plugin swaps the German language packs for WordPress core with a set of language files containing a gender-sensitive translation of WordPress.
 
-The most prominent change you will see after activating **Stringintelligenz** (and only if German is your site language) is the admin menu item “Profile” instead of “Benutzer”. Happy exploring!
+The most prominent change you will see after activating **Stringintelligenz** (and only if German is your site language or user language) is the admin menu item “Profile” instead of “Benutzer”. Happy exploring!
 
 == Installation ==
 
@@ -66,6 +66,9 @@ Contributing strings directly can get a bit tricky technically, but if you’re 
 
 
 == Changelog ==
+
+= 0.2.1 =
+* Support für eigene Profilsprache (neu in WordPress 4.7), danke @tfrommen!
 
 = 0.2.1 =
 * String-Update von WordPress 4.7
