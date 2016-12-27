@@ -18,5 +18,18 @@ defined( 'ABSPATH' ) or die();
  */
 require_once dirname( __FILE__ ) . '/src/Stringintelligenz.php';
 
-$stringintelligenz = new Stringintelligenz( __FILE__ );
-$stringintelligenz->initialize();
+/**
+ * Initializes Stringintelligenz.
+ *
+ * @since   0.2.2
+ * @wp-hook plugins_loaded
+ *
+ * @return void
+ */
+function initialize_stringintelligenz() {
+
+	$stringintelligenz = new Stringintelligenz( __FILE__ );
+	$stringintelligenz->initialize();
+}
+
+add_action( 'plugins_loaded', 'initialize_stringintelligenz' );
