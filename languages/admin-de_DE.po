@@ -6435,31 +6435,31 @@ msgstr "Eine weitere %s Website"
 #: wp-admin/includes/schema.php:636
 msgctxt "User role"
 msgid "Administrator"
-msgstr "Administration"
+msgstr "Administrieren"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:638
 msgctxt "User role"
 msgid "Editor"
-msgstr "Redaktion"
+msgstr "Herausgeben"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:640
 msgctxt "User role"
 msgid "Author"
-msgstr "Inhalte"
+msgstr "Veröffentlichen"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:642
 msgctxt "User role"
 msgid "Contributor"
-msgstr "Entwürfe"
+msgstr "Entwerfen"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:644
 msgctxt "User role"
 msgid "Subscriber"
-msgstr "Mitglied"
+msgstr "Abonnieren"
 
 #: wp-admin/includes/schema.php:904
 msgid "You must provide a domain name."
