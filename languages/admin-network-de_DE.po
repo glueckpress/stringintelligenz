@@ -1,15 +1,15 @@
-# Translation of WordPress - 4.7.x - Administration - Network Admin in German
-# This file is distributed under the same license as the WordPress - 4.7.x - Administration - Network Admin package.
+# Translation of WordPress - Development - Administration - Network Admin in German
+# This file is distributed under the same license as the WordPress - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-18 17:43:02+0000\n"
+"PO-Revision-Date: 2017-04-07 12:12:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.2.2\n"
+"X-Generator: GlotPress/2.3.1\n"
 "Language: de\n"
-"Project-Id-Version: WordPress - 4.7.x - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - Development - Administration - Network Admin\n"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:192
 msgid "No sites found."
@@ -698,7 +698,7 @@ msgstr "Der erste Kommentar auf einer neuen Website."
 
 #: wp-admin/network/settings.php:257
 msgid "First Comment Author"
-msgstr "Autor/-in des ersten Kommentars"
+msgstr "<span aria-hidden=\"true\">Autor/-in</span><span class=\"screen-reader-text\">Autor oder Autorin</span> des ersten Kommentars"
 
 #: wp-admin/network/settings.php:261
 msgid "The author of the first comment on a new site."

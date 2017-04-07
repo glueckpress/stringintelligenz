@@ -70,49 +70,6 @@ class Stringintelligenz {
 		load_plugin_textdomain( 'stringintelligenz', false, $this->l10n_folder );
 
 		/**
-		 * Stringintelligenz JavaScript file model for dismissing admin notices.
-		 */
-		require_once dirname( __FILE__ ) . '/StringintelligenzDismissAdminNoticeScript.php';
-
-		// We will be showing a dismissible admin notice no matter what, so we enqueue the according script right away.
-		add_action( 'admin_enqueue_scripts', array(
-			new StringintelligenzDismissAdminNoticeScript( $this->file ),
-			'enqueue'
-		) );
-
-		/**
-		 * Stringintelligenz admin notice model class.
-		 */
-		require_once dirname( __FILE__ ) . '/StringintelligenzAdminNotice.php';
-
-		/**
-		 * Stringintelligenz dismissible admin notice controller class.
-		 */
-		require_once dirname( __FILE__ ) . '/StringintelligenzDismissController.php';
-
-		add_action( 'wp_ajax_stringintelligenz-dismiss-admin-notice', array(
-			new StringintelligenzDismissController(),
-			'handle_dismiss_request'
-		) );
-
-		// Only for de_DE (informal) for now.
-		if ( 'de_DE' !== $this->get_locale() ) {
-			add_action( 'admin_notices', array( new StringintelligenzAdminNotice(
-				$this->templates_folder . '/admin-notice-locale-not-supported.php'
-			), 'render' ) );
-
-			return;
-		}
-
-		add_action( 'admin_notices', array(
-			new StringintelligenzAdminNotice(
-				$this->templates_folder . '/admin-notice-plugin-activated.php',
-				array( 'type' => 'success' )
-			),
-			'render'
-		) );
-
-		/**
 		 * Stringintelligenz Core override checker class.
 		 */
 		require_once dirname( __FILE__ ) . '/StringintelligenzCoreOverrideChecker.php';
@@ -133,6 +90,7 @@ class Stringintelligenz {
 			new StringintelligenzCoreOverrideChecker( $this->overwrite_folder ),
 			new StringintelligenzReadableTextDomainLoader()
 		);
+
 		add_filter( 'override_load_textdomain', array( $override, 'override' ), 10, 3 );
 	}
 

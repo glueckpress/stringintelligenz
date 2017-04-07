@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Stringintelligenz
  * Description: Open language for WordPress in German
- * Version:     0.2.2
+ * Version:     0.2.3
  * Author:      Caspar Hübinger
  * Author URI:  https://profiles.wordpress.org/glueckpress
  * License:     GPLv3
