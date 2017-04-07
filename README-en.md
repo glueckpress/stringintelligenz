@@ -1,9 +1,9 @@
 # Stringintelligenz
-Gender-sensitive language for WordPress in German
+Inclusive WordPress localization
 
-**Stringintelligenz** is a feature project that aims to bring gender-sensitive language to German WordPress locales.
+**Stringintelligenz** is a feature project that aims to bring inclusive language to WordPress locales.
 
-#### Case
+#### Example case: German
 German has three genders: masculine, feminine and neuter. Word endings often reveal grammatical gender—particularly for individuals, groups of individuals, job descriptions and the like:
 
 ```
@@ -15,28 +15,30 @@ eine Benutzerin   – a user   – female
 die Benutzerinnen – users    – female
 ```
 
-According to written German grammar, a “generic masculine” is meant to include individuals of all biological/social genders. However, studies have shown human perception does not understand a “generically” male gender as inclusive of other biological/social genders.
+According to written German grammar, a “generic masculine” is meant to include individuals of any gender. However, studies have shown human perception does not necessarily work that way.
 
-According to those studies, terms like `Benutzer` (user), `Entwickler` (developer), `Autor` (author), `Administrator` (administrator) and many others in WordPress will be intuitively understood primarily as male.
+According to psycho-linguistic studies conducted for German, grammatically male terms are understood primarily as male, not male and/or female characters. In WordPress this would apply to terms like `Benutzer` (user), `Entwickler` (developer), `Autor` (author), `Administrator` (administrator) and many more.
 
-#### Example: generically applied captions
+#### Example: generically masculine captions
 
 ![German localization for “lead developer” implies Helen Hou-Sandí would be a male developer.](/screenshot-2.png)
-_Helen gets captioned as a male developer in German._
+_Helen was captioned as a male developer in German._
 
 A quite illustrative example is the caption `Leitender Entwickler` (Lead Developer, here: singular) on WordPress’ credits page. German translations clearly imply a **male individual** here. Yet that caption gets applied to each WordPress Lead Developer individually, including Helen Hou-Sandí who is a woman.
 
 The appropriate caption for Helen would be `Leitende Entwicklerin` in German. In this particular case (like often times) we cannot apply proper grammatical gender to each Lead Developer individually due to technical restrictions.
 
+**Update:** The translation `Leitender Entwickler` meanwhile has been changed into the functional equivalent `Leitende Entwicklung` (reverse translated into `Lead Development`) in de_DE core files.
+
 #### Solutions: gender shortcuts
 German offers several widely spread solutions to address this problem in written language:
 
-- `Leitende/r Entwickler/in` (slash)
+- `Leitende/r Entwickler/-in` (slash + dash)
 - `Leitende EntwicklerIn` (“Binnen-I”)
 - `Leitende_r Entwickler_in` (“Gender Gap”)
 - `Leitende*r Entwickler*in` (“Gender Star”)
 
-All of these “gender suffixes” would be read and understood in the context of the individual they got applied to.
+All of these short forms would be read and understood in the context of the individual they got applied to.
 
 **Helen** would be understood as female:
 ```
@@ -49,26 +51,11 @@ Leitender Entwickler
 
 **Plural forms** would be understood as both, female and male:
 ```
-Leitende Entwickler*innen
+Leitende Entwickler/-innen
 ```
 would be read as lead developers (female and male):
 ```
-Leitende Entwicklerinnen und leitende Entwickler
+Leitende Entwicklerinnen und Entwickler
 ```
 
-_**Note:** Gender scientists often recommend to try simplifying and “neutralizing” an expression first instead of using gender suffixes. In many cases phrasing can be adjusted to not rely on gender specific expressions._
-
-#### Why WordPress? Why Now?
-WordPress in German has over 3 million active installs. The potential impact of a gender-sensitive German UI for WordPress core could turn out as a significant contribution for the progress of gender-sensitive software interfaces in German in general.
-
-Gender-sensitive language in core language packs could not only make WordPress in German more friendly and inclusive, it could potentially serve as a role model for other Polyglot communities from WordPress.org, as well as from other open source projects to implement their own solutions.
-
-#### Roadmap
-
-1. Draft a gender-sensitive translation for default German (`de_DE` locale, informal).
-- Make draft available as a plugin on wordpress.org.
-- Blog about it, e.g. on de.wordpress.org.
-- Collect feedback via plugin forum on wordpress.org.
-- Re-iterate, publish betas and Release Candidates.
-- Transfer final RC into informal and formal `de_DE` core translations.
-- Ship as default translations with a WordPress major release, for example with 4.7.
+_**Note:** It is often recommendable to try simplifying and “neutralizing” an expression first instead of using gender suffixes. In many cases phrasing can be adjusted to rely on gender-neutral instead of gender-sensitive expressions._
